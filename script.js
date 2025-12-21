@@ -9,7 +9,7 @@
     "use strict";
 
     /* ================= CONFIG ================= */
-    const JSON_URL = "./vocabAR.json";
+    const JSON_URL = "https://marie930.github.io/vocabAR/vocabAR.json";
     const ENABLE_HOVER = false; // true si tu veux activer le survol (desktop)
 
     /* ================= UTILS ================= */
