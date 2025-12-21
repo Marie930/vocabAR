@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Appliquer la police Noto Sans Arabic à tout le site */
+body {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.text {
+    text-align: center;
+}

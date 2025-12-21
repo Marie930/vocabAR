@@ -1,0 +1,248 @@
+{
+  "texts": {
+    "printemps": {
+      "title_ar": "عَلَّمَنِي الرَّبِيعُ",
+      "title_fr": "Le printemps m’a appris",
+
+      "phrases": [
+        {
+          "id": "p00",
+          "ar": "عَلَّمَنِي الرَّبِيعُ",
+          "fr_fluent": "Le printemps m’a appris.",
+          "fr_word_by_word": "a-appris-moi / le-printemps",
+          "tokens": [
+            { "t": "عَلَّمَنِي", "clickable": true },
+            { "t": "الرَّبِيعُ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p01",
+          "ar": "لقد جاءَ الخريفُ وجفَّتْ أوراقُ الشَّجرِ",
+          "fr_fluent": "L’automne est arrivé et les feuilles des arbres ont séché.",
+          "fr_word_by_word": "en-effet / est-venu / l’automne / et / ont-séché / feuilles / des-arbres",
+          "tokens": [
+            { "t": "لقد", "clickable": false },
+            { "t": "جاءَ", "clickable": false },
+            { "t": "الخريفُ", "clickable": true },
+            { "t": "وجفَّتْ", "clickable": true },
+            { "t": "أوراقُ", "clickable": true },
+            { "t": "الشَّجرِ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p02",
+          "ar": "ثمَّ جاءَ الشِّتاءُ وأصبحتْ أغصانُ الشَّجرِ عاريةً",
+          "fr_fluent": "Puis l’hiver est arrivé et les branches des arbres sont devenues nues.",
+          "fr_word_by_word": "puis / est-venu / l’hiver / et / sont-devenues / branches / des-arbres / nues",
+          "tokens": [
+            { "t": "ثمَّ", "clickable": false },
+            { "t": "جاءَ", "clickable": false },
+            { "t": "الشِّتاءُ", "clickable": true },
+            { "t": "وأصبحتْ", "clickable": true },
+            { "t": "أغصانُ", "clickable": true },
+            { "t": "الشَّجرِ", "clickable": true },
+            { "t": "عاريةً", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p03",
+          "ar": "ما أجملَكَ أيُّها الرَّبيعُ",
+          "fr_fluent": "Comme tu es beau, ô printemps !",
+          "fr_word_by_word": "comme / beau-tu / ô / printemps",
+          "tokens": [
+            { "t": "ما", "clickable": false },
+            { "t": "أجملَكَ", "clickable": true },
+            { "t": "أيُّها", "clickable": false },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p04",
+          "ar": "فقد كَسَوتَ أغصانَ الشَّجرِ بالأوراقِ الخضراءِ الجميلةِ",
+          "fr_fluent": "Car tu as recouvert les branches des arbres de belles feuilles vertes.",
+          "fr_word_by_word": "ainsi/car / as-recouver(tu) / branches / des-arbres / avec-les-feuilles / vertes / belles",
+          "tokens": [
+            { "t": "فقد", "clickable": true },
+            { "t": "كَسَوتَ", "clickable": true },
+            { "t": "أغصانَ", "clickable": true },
+            { "t": "الشَّجرِ", "clickable": true },
+            { "t": "بالأوراقِ", "clickable": true },
+            { "t": "الخضراءِ", "clickable": true },
+            { "t": "الجميلةِ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p05",
+          "ar": "أشعرُ أنَّ الرَّبيعَ سعيدٌ بما يفعلُ",
+          "fr_fluent": "Je ressens que le printemps est heureux de ce qu’il fait.",
+          "fr_word_by_word": "je-ressens / que / le-printemps / heureux / de-ce-que / il-fait",
+          "tokens": [
+            { "t": "أشعرُ", "clickable": true },
+            { "t": "أنَّ", "clickable": false },
+            { "t": "الرَّبيعَ", "clickable": true },
+            { "t": "سعيدٌ", "clickable": true },
+            { "t": "بما", "clickable": false },
+            { "t": "يفعلُ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p06",
+          "ar": "هذا الوَلَدُ يَشعُرُ بالبردِ",
+          "fr_fluent": "Cet enfant a froid.",
+          "fr_word_by_word": "cet / enfant / ressent / le-froid",
+          "tokens": [
+            { "t": "هذا", "clickable": false },
+            { "t": "الوَلَدُ", "clickable": true },
+            { "t": "يَشعُرُ", "clickable": true },
+            { "t": "بالبردِ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p07",
+          "ar": "هو يلبسُ ملابسَ قديمةً وجاءَ مُتردِّدًا",
+          "fr_fluent": "Il porte des vêtements usés et arrive hésitant.",
+          "fr_word_by_word": "il / porte / vêtements / vieux / et / est-venu / hésitant",
+          "tokens": [
+            { "t": "هو", "clickable": false },
+            { "t": "يلبسُ", "clickable": true },
+            { "t": "ملابسَ", "clickable": true },
+            { "t": "قديمةً", "clickable": true },
+            { "t": "وجاءَ", "clickable": true },
+            { "t": "مُتردِّدًا", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p08",
+          "ar": "جاءَتْني فكرةٌ",
+          "fr_fluent": "Une idée m’est venue.",
+          "fr_word_by_word": "est-venue-à-moi / une-idée",
+          "tokens": [
+            { "t": "جاءَتْني", "clickable": true },
+            { "t": "فكرةٌ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p09",
+          "ar": "سأفعلُ مثلَما فعلَ الرَّبيعُ",
+          "fr_fluent": "Je ferai comme le printemps a fait.",
+          "fr_word_by_word": "je-ferai / comme / a-fait / le-printemps",
+          "tokens": [
+            { "t": "سأفعلُ", "clickable": true },
+            { "t": "مثلَما", "clickable": true },
+            { "t": "فعلَ", "clickable": true },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p10",
+          "ar": "سأشاركُهُ ما لديَّ",
+          "fr_fluent": "Je partagerai avec lui ce que j’ai.",
+          "fr_word_by_word": "je-partagerai-avec-lui / ce-que / j’ai",
+          "tokens": [
+            { "t": "سأشاركُهُ", "clickable": true },
+            { "t": "ما", "clickable": false },
+            { "t": "لديَّ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p11",
+          "ar": "هذا الجوُّ الجديدُ وهذهِ الثِّيابُ الجميلةُ تُناسِبُ هذا الوَلَدَ",
+          "fr_fluent": "Ce nouveau temps et ces beaux vêtements conviennent à cet enfant.",
+          "fr_word_by_word": "ce / temps / nouveau / et / ces / vêtements / beaux / conviennent / à / cet / enfant",
+          "tokens": [
+            { "t": "هذا", "clickable": false },
+            { "t": "الجوُّ", "clickable": true },
+            { "t": "الجديدُ", "clickable": true },
+            { "t": "وهذهِ", "clickable": false },
+            { "t": "الثِّيابُ", "clickable": true },
+            { "t": "الجميلةُ", "clickable": true },
+            { "t": "تُناسِبُ", "clickable": true },
+            { "t": "الوَلَدَ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p12",
+          "ar": "لقد أصبحَ الوَلَدُ يَشعُرُ بالدِّفءِ",
+          "fr_fluent": "L’enfant a maintenant chaud.",
+          "fr_word_by_word": "en-effet / est-devenu / l’enfant / ressent / la-chaleur",
+          "tokens": [
+            { "t": "لقد", "clickable": false },
+            { "t": "أصبحَ", "clickable": true },
+            { "t": "الوَلَدُ", "clickable": true },
+            { "t": "يَشعُرُ", "clickable": true },
+            { "t": "بالدِّفءِ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p13",
+          "ar": "وأصبحتُ أنا سعيدًا مثلَ الرَّبيعِ",
+          "fr_fluent": "Et moi aussi, je suis devenu heureux comme le printemps.",
+          "fr_word_by_word": "et / suis-devenu-je / moi / heureux / comme / le-printemps",
+          "tokens": [
+            { "t": "وأصبحتُ", "clickable": true },
+            { "t": "أنا", "clickable": false },
+            { "t": "سعيدًا", "clickable": true },
+            { "t": "مثلَ", "clickable": false },
+            { "t": "الرَّبيعِ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p14",
+          "ar": "شُكرًا أيُّها الرَّبيعُ",
+          "fr_fluent": "Merci, ô printemps !",
+          "fr_word_by_word": "merci / ô / printemps",
+          "tokens": [
+            { "t": "شُكرًا", "clickable": true },
+            { "t": "أيُّها", "clickable": false },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p15",
+          "ar": "فسأكونُ حريصًا أن أفعلَ مثلَكَ دائمًا",
+          "fr_fluent": "Je veillerai donc à toujours faire comme toi.",
+          "fr_word_by_word": "donc / je-serai / attentif / que / je-fasse / comme-toi / toujours",
+          "tokens": [
+            { "t": "فسأكونُ", "clickable": true },
+            { "t": "حريصًا", "clickable": true },
+            { "t": "أفعلَ", "clickable": true },
+            { "t": "مثلَكَ", "clickable": true },
+            { "t": "دائمًا", "clickable": true }
+          ]
+        },
+
+        {
+          "id": "p16",
+          "ar": "وأهتمُّ يا أصدقاءُ هل ستفعلونَ مثلَما فعلَ الرَّبيعُ",
+          "fr_fluent": "Et je vous demande, ô amis : ferez-vous comme le printemps ?",
+          "fr_word_by_word": "et / je-m’adresse / ô / amis / est-ce-que / vous-ferez / comme / a-fait / le-printemps",
+          "tokens": [
+            { "t": "وأهتمُّ", "clickable": true },
+            { "t": "يا", "clickable": false },
+            { "t": "أصدقاءُ", "clickable": true },
+            { "t": "هل", "clickable": false },
+            { "t": "ستفعلونَ", "clickable": true },
+            { "t": "مثلَما", "clickable": true },
+            { "t": "فعلَ", "clickable": true },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
+        }
+      ]
+    }
+  }
+}
