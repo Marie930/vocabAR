@@ -37,8 +37,8 @@
           "fr_fluent": "Puis l’hiver est arrivé et les branches des arbres sont devenues nues.",
           "fr_word_by_word": "puis / est-venu / l’hiver / et / sont-devenues / branches / des-arbres / nues",
           "tokens": [
-            { "t": "ثمَّ", "clickable": false },
-            { "t": "جاءَ", "clickable": false },
+            { "t": "ثمَّ", "clickable": true },
+            { "t": "جاءَ", "clickable": true },
             { "t": "الشِّتاءُ", "clickable": true },
             { "t": "وأصبحتْ", "clickable": true },
             { "t": "أغصانُ", "clickable": true },
@@ -53,9 +53,9 @@
           "fr_fluent": "Comme tu es beau, ô printemps !",
           "fr_word_by_word": "comme / beau-tu / ô / printemps",
           "tokens": [
-            { "t": "ما", "clickable": false },
+            { "t": "ما", "clickable": true },
             { "t": "أجملَكَ", "clickable": true },
-            { "t": "أيُّها", "clickable": false },
+            { "t": "أيُّها", "clickable": true },
             { "t": "الرَّبيعُ", "clickable": true }
           ]
         },
@@ -83,10 +83,10 @@
           "fr_word_by_word": "je-ressens / que / le-printemps / heureux / de-ce-que / il-fait",
           "tokens": [
             { "t": "أشعرُ", "clickable": true },
-            { "t": "أنَّ", "clickable": false },
+            { "t": "أنَّ", "clickable": true },
             { "t": "الرَّبيعَ", "clickable": true },
             { "t": "سعيدٌ", "clickable": true },
-            { "t": "بما", "clickable": false },
+            { "t": "بما", "clickable": true },
             { "t": "يفعلُ", "clickable": true }
           ]
         },
@@ -97,7 +97,7 @@
           "fr_fluent": "Cet enfant a froid.",
           "fr_word_by_word": "cet / enfant / ressent / le-froid",
           "tokens": [
-            { "t": "هذا", "clickable": false },
+            { "t": "هذا", "clickable": true },
             { "t": "الوَلَدُ", "clickable": true },
             { "t": "يَشعُرُ", "clickable": true },
             { "t": "بالبردِ", "clickable": true }
@@ -110,7 +110,7 @@
           "fr_fluent": "Il porte des vêtements usés et arrive hésitant.",
           "fr_word_by_word": "il / porte / vêtements / vieux / et / est-venu / hésitant",
           "tokens": [
-            { "t": "هو", "clickable": false },
+            { "t": "هو", "clickable": true },
             { "t": "يلبسُ", "clickable": true },
             { "t": "ملابسَ", "clickable": true },
             { "t": "قديمةً", "clickable": true },
@@ -150,7 +150,7 @@
           "fr_word_by_word": "je-partagerai-avec-lui / ce-que / j’ai",
           "tokens": [
             { "t": "سأشاركُهُ", "clickable": true },
-            { "t": "ما", "clickable": false },
+            { "t": "ما", "clickable": true },
             { "t": "لديَّ", "clickable": true }
           ]
         },
@@ -161,10 +161,10 @@
           "fr_fluent": "Ce nouveau temps et ces beaux vêtements conviennent à cet enfant.",
           "fr_word_by_word": "ce / temps / nouveau / et / ces / vêtements / beaux / conviennent / à / cet / enfant",
           "tokens": [
-            { "t": "هذا", "clickable": false },
+            { "t": "هذا", "clickable": true },
             { "t": "الجوُّ", "clickable": true },
             { "t": "الجديدُ", "clickable": true },
-            { "t": "وهذهِ", "clickable": false },
+            { "t": "وهذهِ", "clickable": true },
             { "t": "الثِّيابُ", "clickable": true },
             { "t": "الجميلةُ", "clickable": true },
             { "t": "تُناسِبُ", "clickable": true },
@@ -178,7 +178,7 @@
           "fr_fluent": "L’enfant a maintenant chaud.",
           "fr_word_by_word": "en-effet / est-devenu / l’enfant / ressent / la-chaleur",
           "tokens": [
-            { "t": "لقد", "clickable": false },
+            { "t": "لقد", "clickable": true },
             { "t": "أصبحَ", "clickable": true },
             { "t": "الوَلَدُ", "clickable": true },
             { "t": "يَشعُرُ", "clickable": true },
@@ -193,9 +193,9 @@
           "fr_word_by_word": "et / suis-devenu-je / moi / heureux / comme / le-printemps",
           "tokens": [
             { "t": "وأصبحتُ", "clickable": true },
-            { "t": "أنا", "clickable": false },
+            { "t": "أنا", "clickable": true },
             { "t": "سعيدًا", "clickable": true },
-            { "t": "مثلَ", "clickable": false },
+            { "t": "مثلَ", "clickable": true },
             { "t": "الرَّبيعِ", "clickable": true }
           ]
         },
@@ -207,7 +207,7 @@
           "fr_word_by_word": "merci / ô / printemps",
           "tokens": [
             { "t": "شُكرًا", "clickable": true },
-            { "t": "أيُّها", "clickable": false },
+            { "t": "أيُّها", "clickable": true },
             { "t": "الرَّبيعُ", "clickable": true }
           ]
         },
@@ -233,9 +233,9 @@
           "fr_word_by_word": "et / je-m’adresse / ô / amis / est-ce-que / vous-ferez / comme / a-fait / le-printemps",
           "tokens": [
             { "t": "وأهتمُّ", "clickable": true },
-            { "t": "يا", "clickable": false },
+            { "t": "يا", "clickable": true },
             { "t": "أصدقاءُ", "clickable": true },
-            { "t": "هل", "clickable": false },
+            { "t": "هل", "clickable": true },
             { "t": "ستفعلونَ", "clickable": true },
             { "t": "مثلَما", "clickable": true },
             { "t": "فعلَ", "clickable": true },
