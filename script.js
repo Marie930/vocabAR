@@ -7,55 +7,58 @@
    ====================================================== */
 
 (() => {
-  "use strict";
+    "use strict";
 
-  /* ================= CONFIG ================= */
-  const JSON_URL = "https://marie930.github.io/vocabAR/vocabAR.json";
-  const ENABLE_HOVER = false; // true si tu veux activer le survol (desktop)
+    /* ================= CONFIG ================= */
+    const JSON_URL = "https://marie930.github.io/vocabAR/vocabAR.json";
+    const ENABLE_HOVER = false; // true si tu veux activer le survol (desktop)
 
-  /* ================= UTILS ================= */
-  const qs = (s, r = document) => r.querySelector(s);
+    /* ================= UTILS ================= */
+    const qs = (s, r = document) => r.querySelector(s);
 
-  function stripPunctuation(str) {
-    return (str || "")
-      .trim()
-      .replace(/^[\s،؛:!?.()\[\]«»"']+|[\s،؛:!?.()\[\]«»"']+$/g, "");
-  }
-
-  function normalizeToken(raw, aliases = {}) {
-    let t = stripPunctuation(raw);
-
-    // alias exact (si tu en ajoutes)
-    if (aliases[t]) t = aliases[t];
-
-    // enlever tatweel
-    t = t.replace(/ـ/g, "");
-
-    return t;
-  }
-
-  // Cherche une entrée dans un dict, avec fallback "و" initial
-  function findEntry(dict, token) {
-    if (!token || !dict) return null;
-
-    if (dict[token]) return { key: token, entry: dict[token] };
-
-    // fallback : retirer "و" initial
-    if (token.startsWith("و") && dict[token.slice(1)]) {
-      return { key: token.slice(1), entry: dict[token.slice(1)] };
+    function stripPunctuation(str) {
+        return (str || "")
+            .trim()
+            .replace(/^[\s،؛:!?.()\[\]«»"']+|[\s،؛:!?.()\[\]«»"']+$/g, "");
     }
 
-    return null;
-  }
+    function normalizeToken(raw, aliases = {}) {
+        let t = stripPunctuation(raw);
 
-  /* ================= POPUP ================= */
-  function ensurePopup() {
-    let p = qs("#vocab-popup");
-    if (p) return p;
+        // alias exact (si tu en ajoutes)
+        if (aliases[t]) t = aliases[t];
 
-    p = document.createElement("div");
-    p.id = "vocab-popup";
-    p.innerHTML = `
+        // enlever tatweel
+        t = t.replace(/ـ/g, "");
+
+        return t;
+    }
+
+    // Cherche une entrée dans un dict, avec fallback "و" initial
+    function findEntry(dict, token) {
+        if (!token || !dict) return null;
+
+        if (dict[token]) return { key: token, entry: dict[token] };
+
+        if (token.startsWith("و") && dict[token.slice(1)]) {
+            return { key: token.slice(1), entry: dict[token.slice(1)] };
+        }
+
+        if (token.startsWith("ف") && dict[token.slice(1)]) {
+            return { key: token.slice(1), entry: dict[token.slice(1)] };
+        }
+
+        return null;
+    }
+
+    /* ================= POPUP ================= */
+    function ensurePopup() {
+        let p = qs("#vocab-popup");
+        if (p) return p;
+
+        p = document.createElement("div");
+        p.id = "vocab-popup";
+        p.innerHTML = `
       <div class="vp-card" role="dialog" aria-modal="true">
         <button class="vp-close" aria-label="Fermer">×</button>
         <div class="vp-ar"></div>
@@ -64,122 +67,125 @@
         <div class="vp-note"></div>
       </div>
     `;
-    document.body.appendChild(p);
+        document.body.appendChild(p);
 
-    p.addEventListener("click", (e) => e.target === p && closePopup());
-    qs(".vp-close", p).addEventListener("click", closePopup);
-    document.addEventListener("keydown", (e) => e.key === "Escape" && closePopup);
+        p.addEventListener("click", (e) => e.target === p && closePopup());
+        qs(".vp-close", p).addEventListener("click", closePopup);
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") closePopup();
+        });
 
-    return p;
-  }
+        return p;
+    }
 
-  function closePopup() {
-    const p = qs("#vocab-popup");
-    if (p) p.classList.remove("open");
-  }
+    function closePopup() {
+        const p = qs("#vocab-popup");
+        if (p) p.classList.remove("open");
+    }
 
-  function openPopup(word, entry) {
-    const p = ensurePopup();
-    qs(".vp-ar", p).textContent = word;
-    qs(".vp-fr", p).textContent = entry.fr || "";
+    function openPopup(word, entry) {
+        const p = ensurePopup();
+        qs(".vp-ar", p).textContent = word;
+        qs(".vp-fr", p).textContent = entry.fr || "";
 
-    const meta = [entry.root && `Racine : ${entry.root}`, entry.pos && `Catégorie : ${entry.pos}`]
-      .filter(Boolean)
-      .join(" • ");
-    qs(".vp-meta", p).textContent = meta;
+        const meta = [entry.root && `Racine : ${entry.root}`, entry.pos && `Catégorie : ${entry.pos}`]
+            .filter(Boolean)
+            .join(" • ");
+        qs(".vp-meta", p).textContent = meta;
 
-    qs(".vp-note", p).textContent = entry.note ? `Note : ${entry.note}` : "";
-    p.classList.add("open");
-  }
+        qs(".vp-note", p).textContent = entry.note ? `Note : ${entry.note}` : "";
+        p.classList.add("open");
+    }
 
-  /* ================= RENDER ================= */
-  function renderText(container, textData, globalDict) {
-    container.innerHTML = "";
+    /* ================= RENDER ================= */
+    function renderText(container, textData, globalDict) {
+        container.innerHTML = "";
 
-    const title = document.createElement("h1");
-    title.textContent = textData.title_ar || "";
-    container.appendChild(title);
+        const title = document.createElement("h1");
+        title.textContent = textData.title_ar || "";
+        container.appendChild(title);
 
-    textData.phrases.forEach((phrase) => {
-      const block = document.createElement("div");
-      block.className = "phrase";
+        textData.phrases.forEach((phrase) => {
+            const block = document.createElement("div");
+            block.className = "phrase";
 
-      const ar = document.createElement("div");
-      ar.className = "ar-line";
+            const ar = document.createElement("div");
+            ar.className = "ar-line";
 
-      phrase.tokens.forEach((tok, i) => {
-        const span = document.createElement("span");
-        span.textContent = tok.t;
-        span.className = tok.clickable ? "w clickable" : "w";
+            phrase.tokens.forEach((tok, i) => {
+                const span = document.createElement("span");
+                span.textContent = tok.t;
+                const isClickable = tok.clickable !== false; // true par défaut
+                span.className = isClickable ? "w clickable" : "w";
 
-        if (tok.clickable) {
-          span.tabIndex = 0;
+                if (isClickable) {
+                    span.tabIndex = 0;
 
-          const trigger = () => onTokenClick(textData, globalDict, phrase, i, tok.t);
+                    const trigger = () => onTokenClick(textData, globalDict, phrase, i, tok.t);
 
-          span.addEventListener("click", trigger);
-          span.addEventListener("keydown", (e) => {
-            if (e.key === "Enter" || e.key === " ") {
-              e.preventDefault();
-              trigger();
-            }
-          });
+                    span.addEventListener("click", trigger);
+                    span.addEventListener("keydown", (e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                            e.preventDefault();
+                            trigger();
+                        }
+                    });
 
-          if (ENABLE_HOVER) {
-            span.addEventListener("mouseenter", trigger);
-          }
-        }
+                    if (ENABLE_HOVER) {
+                        span.addEventListener("mouseenter", trigger);
+                    }
+                }
 
-        ar.appendChild(span);
-        if (i < phrase.tokens.length - 1) {
-          ar.appendChild(document.createTextNode(" "));
-        }
-      });
+                ar.appendChild(span);
+                if (i < phrase.tokens.length - 1) {
+                    ar.appendChild(document.createTextNode(" "));
+                }
+            });
 
-      const tr = document.createElement("div");
-      tr.className = "tr";
-      tr.innerHTML = `
+            const tr = document.createElement("div");
+            tr.className = "tr";
+            tr.innerHTML = `
         <div class="fr">✅ ${phrase.fr_fluent || ""}</div>
         <div class="wbw">🔍 ${phrase.fr_word_by_word || ""}</div>
       `;
 
-      block.appendChild(ar);
-      block.appendChild(tr);
-      container.appendChild(block);
-    });
-  }
-
-  // ✅ Correction principale : chercher d'abord dans le dictionary GLOBAL (data.dictionary)
-  // Puis fallback sur la traduction mot-à-mot de la phrase (index).
-  function onTokenClick(textData, globalDict, phrase, tokenIndex, rawToken) {
-    const token = normalizeToken(rawToken, textData.aliases || {});
-
-    // 1) dictionnaire global
-    const foundGlobal = findEntry(globalDict, token);
-    if (foundGlobal) {
-      openPopup(foundGlobal.key, foundGlobal.entry);
-      return;
+            block.appendChild(ar);
+            block.appendChild(tr);
+            container.appendChild(block);
+        });
     }
 
-    // 2) (optionnel) si tu gardes aussi un dict local plus tard
-    const foundLocal = findEntry(textData.dictionary || {}, token);
-    if (foundLocal) {
-      openPopup(foundLocal.key, foundLocal.entry);
-      return;
+    // ✅ Correction principale : chercher d'abord dans le dictionary GLOBAL (data.dictionary)
+    // Puis fallback sur la traduction mot-à-mot de la phrase (index).
+    function onTokenClick(textData, globalDict, phrase, tokenIndex, rawToken) {
+        const token = normalizeToken(rawToken, textData.aliases || {});
+
+        // 1) dictionnaire global
+        const foundGlobal = findEntry(globalDict, token);
+        if (foundGlobal) {
+            openPopup(foundGlobal.key, foundGlobal.entry);
+            return;
+        }
+
+        // 2) (optionnel) si tu gardes aussi un dict local plus tard
+        const foundLocal = findEntry(textData.dictionary || {}, token);
+        if (foundLocal) {
+            openPopup(foundLocal.key, foundLocal.entry);
+            return;
+        }
+
+        // 3) fallback : mot-à-mot de la phrase
+        const parts = (phrase.fr_word_by_word || "").split(" / ").map((s) => s.trim());
+        const fallback = parts[tokenIndex] || "—";
+        openPopup(token, {
+            fr: fallback,
+            note: "Traduction issue du mot-à-mot de la phrase."
+        });
     }
 
-    // 3) fallback : mot-à-mot de la phrase
-    const parts = (phrase.fr_word_by_word || "").split(" / ").map((s) => s.trim());
-    const fallback = parts[tokenIndex] || "—";
-    openPopup(token, {
-      fr: fallback,
-      note: "Traduction issue du mot-à-mot de la phrase."
-    });
-  }
-
-  /* ================= STYLES ================= */
-  function injectStyles() {
-    const css = `
+    /* ================= STYLES ================= */
+    function injectStyles() {
+        const css = `
       .text { direction: rtl; line-height: 1.9; }
       .phrase { margin: 16px 0; padding: 12px; border: 1px solid #eee; border-radius: 12px; }
       .ar-line { font-size: 22px; }
@@ -200,48 +206,48 @@
       .vp-meta { font-size: 13px; opacity: .8; margin-top: 4px; }
       .vp-note { font-size: 14px; margin-top: 6px; }
     `;
-    const style = document.createElement("style");
-    style.textContent = css;
-    document.head.appendChild(style);
-  }
-
-  /* ================= INIT ================= */
-  async function init() {
-    injectStyles();
-
-    const container = qs(".text[lang='ar']");
-    if (!container) return;
-
-    const textId = document.body.dataset.textId;
-    if (!textId) {
-      container.textContent = "Erreur : data-text-id manquant sur <body>.";
-      return;
+        const style = document.createElement("style");
+        style.textContent = css;
+        document.head.appendChild(style);
     }
 
-    try {
-      // ✅ no-store pour éviter les surprises de cache GitHub Pages
-      const res = await fetch(JSON_URL, { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status} en chargeant ${JSON_URL}`);
+    /* ================= INIT ================= */
+    async function init() {
+        injectStyles();
 
-      const data = await res.json();
+        const container = qs(".text[lang='ar']");
+        if (!container) return;
 
-      const textData = data.texts?.[textId];
-      if (!textData) {
-        const keys = Object.keys(data.texts || {});
-        container.style.direction = "ltr";
-        container.innerHTML = `Erreur : vocabulaire "<b>${textId}</b>" introuvable.<br>Clés disponibles : <code>${keys.join(", ")}</code>`;
-        return;
-      }
+        const textId = document.body.dataset.textId;
+        if (!textId) {
+            container.textContent = "Erreur : data-text-id manquant sur <body>.";
+            return;
+        }
 
-      // ✅ dictionnaire global à la racine
-      const globalDict = data.dictionary || {};
+        try {
+            // ✅ no-store pour éviter les surprises de cache GitHub Pages
+            const res = await fetch(JSON_URL, { cache: "no-store" });
+            if (!res.ok) throw new Error(`HTTP ${res.status} en chargeant ${JSON_URL}`);
 
-      renderText(container, textData, globalDict);
-    } catch (e) {
-      container.textContent = "Erreur : impossible de charger vocabAR.json.";
-      console.error(e);
+            const data = await res.json();
+
+            const textData = data.texts?.[textId];
+            if (!textData) {
+                const keys = Object.keys(data.texts || {});
+                container.style.direction = "ltr";
+                container.innerHTML = `Erreur : vocabulaire "<b>${textId}</b>" introuvable.<br>Clés disponibles : <code>${keys.join(", ")}</code>`;
+                return;
+            }
+
+            // ✅ dictionnaire global à la racine
+            const globalDict = data.dictionary || {};
+
+            renderText(container, textData, globalDict);
+        } catch (e) {
+            container.textContent = "Erreur : impossible de charger vocabAR.json.";
+            console.error(e);
+        }
     }
-  }
 
-  init();
+    init();
 })();
