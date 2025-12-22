@@ -22,8 +22,8 @@
           "fr_fluent": "L’automne est arrivé et les feuilles des arbres ont séché.",
           "fr_word_by_word": "en-effet / est-venu / l’automne / et / ont-séché / feuilles / des-arbres",
           "tokens": [
-            { "t": "لقد", "clickable": false },
-            { "t": "جاءَ", "clickable": false },
+            { "t": "لقد", "clickable": true },
+            { "t": "جاءَ", "clickable": true },
             { "t": "الخريفُ", "clickable": true },
             { "t": "وجفَّتْ", "clickable": true },
             { "t": "أوراقُ", "clickable": true },
