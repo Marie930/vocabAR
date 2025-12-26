@@ -1,1250 +1,1173 @@
 {
-    "texts": {
-        "vocabulaire": {
-            "title_ar": "عَلَّمَنِي الرَّبِيعُ",
-            "title_fr": "Le printemps m’a appris",
-            "phrases": [
-                {
-                    "id": "p00",
-                    "ar": "عَلَّمَنِي الرَّبِيعُ",
-                    "fr_fluent": "Le printemps m’a appris.",
-                    "fr_word_by_word": "a-appris-moi / le-printemps",
-                    "tokens": [
-                        {
-                            "t": "عَلَّمَنِي",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الرَّبِيعُ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p01",
-                    "ar": "لقد جاءَ الخريفُ وجفَّتْ أوراقُ الشَّجرِ",
-                    "fr_fluent": "L’automne est arrivé et les feuilles des arbres ont séché.",
-                    "fr_word_by_word": "en-effet / est-venu / l’automne / et / ont-séché / feuilles / des-arbres",
-                    "tokens": [
-                        {
-                            "t": "لقد",
-                            "clickable": true
-                        },
-                        {
-                            "t": "جاءَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الخريفُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "وجفَّتْ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أوراقُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الشَّجرِ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p02",
-                    "ar": "ثمَّ جاءَ الشِّتاءُ وأصبحتْ أغصانُ الشَّجرِ عاريةً",
-                    "fr_fluent": "Puis l’hiver est arrivé et les branches des arbres sont devenues nues.",
-                    "fr_word_by_word": "puis / est-venu / l’hiver / et / sont-devenues / branches / des-arbres / nues",
-                    "tokens": [
-                        {
-                            "t": "ثمَّ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "جاءَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الشِّتاءُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "وأصبحتْ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أغصانُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الشَّجرِ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "عاريةً",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p03",
-                    "ar": "ما أجملَكَ أيُّها الرَّبيعُ",
-                    "fr_fluent": "Comme tu es beau, ô printemps !",
-                    "fr_word_by_word": "comme / beau-tu / ô / printemps",
-                    "tokens": [
-                        {
-                            "t": "ما",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أجملَكَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أيُّها",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الرَّبيعُ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p04",
-                    "ar": "فقد كَسَوتَ أغصانَ الشَّجرِ بالأوراقِ الخضراءِ الجميلةِ",
-                    "fr_fluent": "Car tu as recouvert les branches des arbres de belles feuilles vertes.",
-                    "fr_word_by_word": "ainsi/car / as-recouver(tu) / branches / des-arbres / avec-les-feuilles / vertes / belles",
-                    "tokens": [
-                        {
-                            "t": "فقد",
-                            "clickable": true
-                        },
-                        {
-                            "t": "كَسَوتَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أغصانَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الشَّجرِ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "بالأوراقِ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الخضراءِ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الجميلةِ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p05",
-                    "ar": "أشعرُ أنَّ الرَّبيعَ سعيدٌ بما يفعلُ",
-                    "fr_fluent": "Je ressens que le printemps est heureux de ce qu’il fait.",
-                    "fr_word_by_word": "je-ressens / que / le-printemps / heureux / de-ce-que / il-fait",
-                    "tokens": [
-                        {
-                            "t": "أشعرُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أنَّ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الرَّبيعَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "سعيدٌ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "بما",
-                            "clickable": true
-                        },
-                        {
-                            "t": "يفعلُ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p06",
-                    "ar": "هذا الوَلَدُ يَشعُرُ بالبردِ",
-                    "fr_fluent": "Cet enfant a froid.",
-                    "fr_word_by_word": "cet / enfant / ressent / le-froid",
-                    "tokens": [
-                        {
-                            "t": "هذا",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الوَلَدُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "يَشعُرُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "بالبردِ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p07",
-                    "ar": "هو يلبسُ ملابسَ قديمةً وجاءَ مُتردِّدًا",
-                    "fr_fluent": "Il porte des vêtements usés et arrive hésitant.",
-                    "fr_word_by_word": "il / porte / vêtements / vieux / et / est-venu / hésitant",
-                    "tokens": [
-                        {
-                            "t": "هو",
-                            "clickable": true
-                        },
-                        {
-                            "t": "يلبسُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "ملابسَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "قديمةً",
-                            "clickable": true
-                        },
-                        {
-                            "t": "وجاءَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "مُتردِّدًا",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p08",
-                    "ar": "جاءَتْني فكرةٌ",
-                    "fr_fluent": "Une idée m’est venue.",
-                    "fr_word_by_word": "est-venue-à-moi / une-idée",
-                    "tokens": [
-                        {
-                            "t": "جاءَتْني",
-                            "clickable": true
-                        },
-                        {
-                            "t": "فكرةٌ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p09",
-                    "ar": "سأفعلُ مثلَما فعلَ الرَّبيعُ",
-                    "fr_fluent": "Je ferai comme le printemps a fait.",
-                    "fr_word_by_word": "je-ferai / comme / a-fait / le-printemps",
-                    "tokens": [
-                        {
-                            "t": "سأفعلُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "مثلَما",
-                            "clickable": true
-                        },
-                        {
-                            "t": "فعلَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الرَّبيعُ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p10",
-                    "ar": "سأشاركُهُ ما لديَّ",
-                    "fr_fluent": "Je partagerai avec lui ce que j’ai.",
-                    "fr_word_by_word": "je-partagerai-avec-lui / ce-que / j’ai",
-                    "tokens": [
-                        {
-                            "t": "سأشاركُهُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "ما",
-                            "clickable": true
-                        },
-                        {
-                            "t": "لديَّ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p11",
-                    "ar": "هذا الجوُّ الجديدُ وهذهِ الثِّيابُ الجميلةُ تُناسِبُ هذا الوَلَدَ",
-                    "fr_fluent": "Ce nouveau temps et ces beaux vêtements conviennent à cet enfant.",
-                    "fr_word_by_word": "ce / temps / nouveau / et / ces / vêtements / beaux / conviennent / à / cet / enfant",
-                    "tokens": [
-                        {
-                            "t": "هذا",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الجوُّ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الجديدُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "وهذهِ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الثِّيابُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الجميلةُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "تُناسِبُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الوَلَدَ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p12",
-                    "ar": "لقد أصبحَ الوَلَدُ يَشعُرُ بالدِّفءِ",
-                    "fr_fluent": "L’enfant a maintenant chaud.",
-                    "fr_word_by_word": "en-effet / est-devenu / l’enfant / ressent / la-chaleur",
-                    "tokens": [
-                        {
-                            "t": "لقد",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أصبحَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الوَلَدُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "يَشعُرُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "بالدِّفءِ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p13",
-                    "ar": "وأصبحتُ أنا سعيدًا مثلَ الرَّبيعِ",
-                    "fr_fluent": "Et moi aussi, je suis devenu heureux comme le printemps.",
-                    "fr_word_by_word": "et / suis-devenu-je / moi / heureux / comme / le-printemps",
-                    "tokens": [
-                        {
-                            "t": "وأصبحتُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أنا",
-                            "clickable": true
-                        },
-                        {
-                            "t": "سعيدًا",
-                            "clickable": true
-                        },
-                        {
-                            "t": "مثلَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الرَّبيعِ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p14",
-                    "ar": "شُكرًا أيُّها الرَّبيعُ",
-                    "fr_fluent": "Merci, ô printemps !",
-                    "fr_word_by_word": "merci / ô / printemps",
-                    "tokens": [
-                        {
-                            "t": "شُكرًا",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أيُّها",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الرَّبيعُ",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p15",
-                    "ar": "فسأكونُ حريصًا أن أفعلَ مثلَكَ دائمًا",
-                    "fr_fluent": "Je veillerai donc à toujours faire comme toi.",
-                    "fr_word_by_word": "donc / je-serai / attentif / que / je-fasse / comme-toi / toujours",
-                    "tokens": [
-                        {
-                            "t": "فسأكونُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "حريصًا",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أفعلَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "مثلَكَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "دائمًا",
-                            "clickable": true
-                        }
-                    ]
-                },
-                {
-                    "id": "p16",
-                    "ar": "وأهتمُّ يا أصدقاءُ هل ستفعلونَ مثلَما فعلَ الرَّبيعُ",
-                    "fr_fluent": "Et je vous demande, ô amis : ferez-vous comme le printemps ?",
-                    "fr_word_by_word": "et / je-m’adresse / ô / amis / est-ce-que / vous-ferez / comme / a-fait / le-printemps",
-                    "tokens": [
-                        {
-                            "t": "وأهتمُّ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "يا",
-                            "clickable": true
-                        },
-                        {
-                            "t": "أصدقاءُ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "هل",
-                            "clickable": true
-                        },
-                        {
-                            "t": "ستفعلونَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "مثلَما",
-                            "clickable": true
-                        },
-                        {
-                            "t": "فعلَ",
-                            "clickable": true
-                        },
-                        {
-                            "t": "الرَّبيعُ",
-                            "clickable": true
-                        }
-                    ]
-                }
-            ]
+  "texts": {
+    "printemps": {
+      "title_ar": "عَلَّمَنِي الرَّبِيعُ",
+      "title_fr": "Le printemps m’a appris",
+      "phrases": [
+        {
+          "id": "p00",
+          "ar": "عَلَّمَنِي الرَّبِيعُ",
+          "fr_fluent": "Le printemps m’a appris.",
+          "fr_word_by_word": "a-appris-moi / le-printemps",
+          "tokens": [
+            { "t": "عَلَّمَنِي", "clickable": true },
+            { "t": "الرَّبِيعُ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p01",
+          "ar": "لقد جاءَ الخريفُ وجفَّتْ أوراقُ الشَّجرِ",
+          "fr_fluent": "L’automne est arrivé et les feuilles des arbres ont séché.",
+          "fr_word_by_word": "en-effet / est-venu / l’automne / et / ont-séché / feuilles / des-arbres",
+          "tokens": [
+            { "t": "لقد", "clickable": true },
+            { "t": "جاءَ", "clickable": true },
+            { "t": "الخريفُ", "clickable": true },
+            { "t": "وجفَّتْ", "clickable": true },
+            { "t": "أوراقُ", "clickable": true },
+            { "t": "الشَّجرِ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p02",
+          "ar": "ثمَّ جاءَ الشِّتاءُ وأصبحتْ أغصانُ الشَّجرِ عاريةً",
+          "fr_fluent": "Puis l’hiver est arrivé et les branches des arbres sont devenues nues.",
+          "fr_word_by_word": "puis / est-venu / l’hiver / et / sont-devenues / branches / des-arbres / nues",
+          "tokens": [
+            { "t": "ثمَّ", "clickable": true },
+            { "t": "جاءَ", "clickable": true },
+            { "t": "الشِّتاءُ", "clickable": true },
+            { "t": "وأصبحتْ", "clickable": true },
+            { "t": "أغصانُ", "clickable": true },
+            { "t": "الشَّجرِ", "clickable": true },
+            { "t": "عاريةً", "clickable": true }
+          ]
+        },
+        {
+          "id": "p03",
+          "ar": "ما أجملَكَ أيُّها الرَّبيعُ",
+          "fr_fluent": "Comme tu es beau, ô printemps !",
+          "fr_word_by_word": "comme / beau-tu / ô / printemps",
+          "tokens": [
+            { "t": "ما", "clickable": true },
+            { "t": "أجملَكَ", "clickable": true },
+            { "t": "أيُّها", "clickable": true },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p04",
+          "ar": "فقد كَسَوتَ أغصانَ الشَّجرِ بالأوراقِ الخضراءِ الجميلةِ",
+          "fr_fluent": "Car tu as recouvert les branches des arbres de belles feuilles vertes.",
+          "fr_word_by_word": "ainsi/car / as-recouver(tu) / branches / des-arbres / avec-les-feuilles / vertes / belles",
+          "tokens": [
+            { "t": "فقد", "clickable": true },
+            { "t": "كَسَوتَ", "clickable": true },
+            { "t": "أغصانَ", "clickable": true },
+            { "t": "الشَّجرِ", "clickable": true },
+            { "t": "بالأوراقِ", "clickable": true },
+            { "t": "الخضراءِ", "clickable": true },
+            { "t": "الجميلةِ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p05",
+          "ar": "أشعرُ أنَّ الرَّبيعَ سعيدٌ بما يفعلُ",
+          "fr_fluent": "Je ressens que le printemps est heureux de ce qu’il fait.",
+          "fr_word_by_word": "je-ressens / que / le-printemps / heureux / de-ce-que / il-fait",
+          "tokens": [
+            { "t": "أشعرُ", "clickable": true },
+            { "t": "أنَّ", "clickable": true },
+            { "t": "الرَّبيعَ", "clickable": true },
+            { "t": "سعيدٌ", "clickable": true },
+            { "t": "بما", "clickable": true },
+            { "t": "يفعلُ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p06",
+          "ar": "هذا الوَلَدُ يَشعُرُ بالبردِ",
+          "fr_fluent": "Cet enfant a froid.",
+          "fr_word_by_word": "cet / enfant / ressent / le-froid",
+          "tokens": [
+            { "t": "هذا", "clickable": true },
+            { "t": "الوَلَدُ", "clickable": true },
+            { "t": "يَشعُرُ", "clickable": true },
+            { "t": "بالبردِ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p07",
+          "ar": "هو يلبسُ ملابسَ قديمةً وجاءَ مُتردِّدًا",
+          "fr_fluent": "Il porte des vêtements usés et arrive hésitant.",
+          "fr_word_by_word": "il / porte / vêtements / vieux / et / est-venu / hésitant",
+          "tokens": [
+            { "t": "هو", "clickable": true },
+            { "t": "يلبسُ", "clickable": true },
+            { "t": "ملابسَ", "clickable": true },
+            { "t": "قديمةً", "clickable": true },
+            { "t": "وجاءَ", "clickable": true },
+            { "t": "مُتردِّدًا", "clickable": true }
+          ]
+        },
+        {
+          "id": "p08",
+          "ar": "جاءَتْني فكرةٌ",
+          "fr_fluent": "Une idée m’est venue.",
+          "fr_word_by_word": "est-venue-à-moi / une-idée",
+          "tokens": [
+            { "t": "جاءَتْني", "clickable": true },
+            { "t": "فكرةٌ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p09",
+          "ar": "سأفعلُ مثلَما فعلَ الرَّبيعُ",
+          "fr_fluent": "Je ferai comme le printemps a fait.",
+          "fr_word_by_word": "je-ferai / comme / a-fait / le-printemps",
+          "tokens": [
+            { "t": "سأفعلُ", "clickable": true },
+            { "t": "مثلَما", "clickable": true },
+            { "t": "فعلَ", "clickable": true },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p10",
+          "ar": "سأشاركُهُ ما لديَّ",
+          "fr_fluent": "Je partagerai avec lui ce que j’ai.",
+          "fr_word_by_word": "je-partagerai-avec-lui / ce-que / j’veux",
+          "tokens": [
+            { "t": "سأشاركُهُ", "clickable": true },
+            { "t": "ما", "clickable": true },
+            { "t": "لديَّ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p11",
+          "ar": "هذا الجوُّ الجديدُ وهذهِ الثِّيابُ الجميلةُ تُناسِبُ هذا الوَلَدَ",
+          "fr_fluent": "Ce nouveau temps et ces beaux vêtements conviennent à cet enfant.",
+          "fr_word_by_word": "ce / temps / nouveau / et / ces / vêtements / beaux / conviennent / à / cet / enfant",
+          "tokens": [
+            { "t": "هذا", "clickable": true },
+            { "t": "الجوُّ", "clickable": true },
+            { "t": "الجديدُ", "clickable": true },
+            { "t": "وهذهِ", "clickable": true },
+            { "t": "الثِّيابُ", "clickable": true },
+            { "t": "الجميلةُ", "clickable": true },
+            { "t": "تُناسِبُ", "clickable": true },
+            { "t": "الوَلَدَ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p12",
+          "ar": "لقد أصبحَ الوَلَدُ يَشعُرُ بالدِّفءِ",
+          "fr_fluent": "L’enfant a maintenant chaud.",
+          "fr_word_by_word": "en-effet / est-devenu / l’enfant / ressent / la-chaleur",
+          "tokens": [
+            { "t": "لقد", "clickable": true },
+            { "t": "أصبحَ", "clickable": true },
+            { "t": "الوَلَدُ", "clickable": true },
+            { "t": "يَشعُرُ", "clickable": true },
+            { "t": "بالدِّفءِ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p13",
+          "ar": "وأصبحتُ أنا سعيدًا مثلَ الرَّبيعِ",
+          "fr_fluent": "Et moi aussi, je suis devenu heureux comme le printemps.",
+          "fr_word_by_word": "et / suis-devenu-je / moi / heureux / comme / le-printemps",
+          "tokens": [
+            { "t": "وأصبحتُ", "clickable": true },
+            { "t": "أنا", "clickable": true },
+            { "t": "سعيدًا", "clickable": true },
+            { "t": "مثلَ", "clickable": true },
+            { "t": "الرَّبيعِ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p14",
+          "ar": "شُكرًا أيُّها الرَّبيعُ",
+          "fr_fluent": "Merci, ô printemps !",
+          "fr_word_by_word": "merci / ô / printemps",
+          "tokens": [
+            { "t": "شُكرًا", "clickable": true },
+            { "t": "أيُّها", "clickable": true },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p15",
+          "ar": "فسأكونُ حريصًا أن أفعلَ مثلَكَ دائمًا",
+          "fr_fluent": "Je veillerai donc à toujours faire comme toi.",
+          "fr_word_by_word": "donc / je-serai / attentif / que / je-fasse / comme-toi / toujours",
+          "tokens": [
+            { "t": "فسأكونُ", "clickable": true },
+            { "t": "حريصًا", "clickable": true },
+            { "t": "أفعلَ", "clickable": true },
+            { "t": "مثلَكَ", "clickable": true },
+            { "t": "دائمًا", "clickable": true }
+          ]
+        },
+        {
+          "id": "p16",
+          "ar": "وأهتمُّ يا أصدقاءُ هل ستفعلونَ مثلَما فعلَ الرَّبيعُ",
+          "fr_fluent": "Et je vous demande, ô amis : ferez-vous comme le printemps ?",
+          "fr_word_by_word": "et / je-m’adresse / ô / amis / est-ce-que / vous-ferez / comme / a-fait / le-printemps",
+          "tokens": [
+            { "t": "وأهتمُّ", "clickable": true },
+            { "t": "يا", "clickable": true },
+            { "t": "أصدقاءُ", "clickable": true },
+            { "t": "هل", "clickable": true },
+            { "t": "ستفعلونَ", "clickable": true },
+            { "t": "مثلَما", "clickable": true },
+            { "t": "فعلَ", "clickable": true },
+            { "t": "الرَّبيعُ", "clickable": true }
+          ]
         }
+      ]
     },
-    "dictionary": {
-        "عَلَّمَنِي": {
-            "fr": "il m’a appris / il m’a enseigné",
-            "root": "ع ل م",
-            "pos": "verbe (passé, forme II) + pronom objet (-ني)",
-            "note": "علّم = enseigner (forme II : intensif/causatif) ; -ني = “à moi”"
-        },
-        "الرَّبِيعُ": {
-            "fr": "le printemps",
-            "root": "ر ب ع",
-            "pos": "nom",
-            "note": "Ici, le printemps est personnifié"
-        },
-        "لقد": {
-            "fr": "en effet / certes",
-            "root": null,
-            "pos": "particule (insistance)",
-            "note": "Souvent avec un verbe au passé pour insister sur le fait"
-        },
-        "جاءَ": {
-            "fr": "il est venu / il est arrivé",
-            "root": "ج ي ء",
-            "pos": "verbe (passé, 3e masc. sing.)",
-            "note": "Verbe très fréquent : venir / arriver"
-        },
-        "الخريفُ": {
-            "fr": "l’automne",
-            "root": "خ ر ف",
-            "pos": "nom",
-            "note": ""
-        },
-        "وجفَّتْ": {
-            "fr": "et ont séché",
-            "root": "ج ف ف",
-            "pos": "conjonction و + verbe (passé, 3e fém. sing.)",
-            "note": "Le pluriel non-humain prend souvent le verbe au féminin singulier"
-        },
-        "أوراقُ": {
-            "fr": "feuilles",
-            "root": "و ر ق",
-            "pos": "nom (pluriel)",
-            "note": "Singulier : وَرَقَة"
-        },
-        "الشَّجرِ": {
-            "fr": "les arbres",
-            "root": "ش ج ر",
-            "pos": "nom collectif",
-            "note": "Souvent utilisé comme collectif : “les arbres”"
-        },
-        "ثمَّ": {
-            "fr": "puis / ensuite",
-            "root": null,
-            "pos": "adverbe / particule de succession",
-            "note": ""
-        },
-        "الشِّتاءُ": {
-            "fr": "l’hiver",
-            "root": "ش ت و",
-            "pos": "nom",
-            "note": ""
-        },
-        "وأصبحتْ": {
-            "fr": "et sont devenues",
-            "root": "ص ب ح",
-            "pos": "و + verbe أصبح (passé, 3e fém. sing.)",
-            "note": "أصبح = devenir / se mettre à (changement d’état)"
-        },
-        "أغصانُ": {
-            "fr": "branches",
-            "root": "غ ص ن",
-            "pos": "nom (pluriel)",
-            "note": "Singulier : غُصْن"
-        },
-        "عاريةً": {
-            "fr": "nues / dénudées",
-            "root": "ع ر ي",
-            "pos": "adjectif",
-            "note": "عارٍ (m.) / عارية (f.)"
-        },
-        "ما": {
-            "fr": "comme… ! (exclamation)",
-            "root": null,
-            "pos": "particule (exclamative)",
-            "note": "Structure : ما + أفعلَ (ex : ما أجملَكَ)"
-        },
-        "أجملَكَ": {
-            "fr": "comme tu es beau !",
-            "root": "ج م ل",
-            "pos": "forme exclamative + pronom (-كَ)",
-            "note": "Sens littéral : “qu’est-ce qui te rend beau !” → “comme tu es beau !”"
-        },
-        "أيُّها": {
-            "fr": "ô (terme d’interpellation)",
-            "root": null,
-            "pos": "outil d’appel / interpellation",
-            "note": "Souvent : أيها (m.) / أيتها (f.)"
-        },
-        "فقد": {
-            "fr": "ainsi / car / en effet",
-            "root": null,
-            "pos": "particule (lien logique)",
-            "note": "Introduit une explication ou conséquence"
-        },
-        "كَسَوتَ": {
-            "fr": "tu as recouvert / tu as habillé",
-            "root": "ك س و",
-            "pos": "verbe (passé, 2e masc. sing.)",
-            "note": "Ici : “habiller les branches de feuilles”"
-        },
-        "أغصانَ": {
-            "fr": "des branches (COD)",
-            "root": "غ ص ن",
-            "pos": "nom (pluriel) à l’accusatif",
-            "note": "Même mot que أغصانُ mais avec une autre voyelle (cas)"
-        },
-        "بالأوراقِ": {
-            "fr": "avec / de feuilles",
-            "root": "و ر ق",
-            "pos": "بـ (préposition) + nom pluriel",
-            "note": "بـ = avec / par / au moyen de"
-        },
-        "الخضراءِ": {
-            "fr": "vertes",
-            "root": "خ ض ر",
-            "pos": "adjectif (fém.)",
-            "note": "أخضر (m.) / خضراء (f.)"
-        },
-        "الجميلةِ": {
-            "fr": "belles",
-            "root": "ج م ل",
-            "pos": "adjectif",
-            "note": "Accord avec الأوراق الخضراء"
-        },
-        "أشعرُ": {
-            "fr": "je ressens / je sens",
-            "root": "ش ع ر",
-            "pos": "verbe (présent, 1re pers. sing.)",
-            "note": ""
-        },
-        "أنَّ": {
-            "fr": "que",
-            "root": null,
-            "pos": "particule de subordination",
-            "note": "Introduit une proposition complétive (أنّ + nominale)"
-        },
-        "الرَّبيعَ": {
-            "fr": "le printemps (COD)",
-            "root": "ر ب ع",
-            "pos": "nom à l’accusatif",
-            "note": "Même mot que الرَّبيعُ mais cas différent"
-        },
-        "سعيدٌ": {
-            "fr": "heureux",
-            "root": "س ع د",
-            "pos": "adjectif",
-            "note": ""
-        },
-        "بما": {
-            "fr": "de ce que / de ce qui",
-            "root": null,
-            "pos": "préposition + pronom relatif (بـ + ما)",
-            "note": "Exprime la cause / le contenu : “de ce qu’il fait”"
-        },
-        "يفعلُ": {
-            "fr": "il fait",
-            "root": "ف ع ل",
-            "pos": "verbe (présent, 3e masc. sing.)",
-            "note": "فعل = faire (verbe très général)"
-        },
-        "هذا": {
-            "fr": "ce / cet",
-            "root": null,
-            "pos": "déterminant démonstratif",
-            "note": "هذا (m.) / هذه (f.)"
-        },
-        "الوَلَدُ": {
-            "fr": "l’enfant / le garçon",
-            "root": "و ل د",
-            "pos": "nom",
-            "note": "Peut signifier enfant/garçon selon contexte"
-        },
-        "يَشعُرُ": {
-            "fr": "il ressent",
-            "root": "ش ع ر",
-            "pos": "verbe (présent, 3e masc. sing.)",
-            "note": "Même racine que أشعرُ"
-        },
-        "بالبردِ": {
-            "fr": "du froid / le froid",
-            "root": "ب ر د",
-            "pos": "بـ + nom",
-            "note": "Sens : “il ressent du froid”"
-        },
-        "هو": {
-            "fr": "il",
-            "root": null,
-            "pos": "pronom personnel",
-            "note": ""
-        },
-        "يلبسُ": {
-            "fr": "il porte (des vêtements)",
-            "root": "ل ب س",
-            "pos": "verbe (présent, 3e masc. sing.)",
-            "note": ""
-        },
-        "ملابسَ": {
-            "fr": "des vêtements",
-            "root": "ل ب س",
-            "pos": "nom (pluriel) à l’accusatif",
-            "note": "Singulier : ملبس / لباس (selon usage)"
-        },
-        "قديمةً": {
-            "fr": "vieux / usés",
-            "root": "ق د م",
-            "pos": "adjectif (fém. sing.)",
-            "note": "Accorde avec ملابس (non-humain → accord fém. sing. fréquent)"
-        },
-        "وجاءَ": {
-            "fr": "et il est venu / et il est arrivé",
-            "root": "ج ي ء",
-            "pos": "و + verbe (passé)",
-            "note": "Même verbe que جاءَ, précédé de و"
-        },
-        "مُتردِّدًا": {
-            "fr": "hésitant",
-            "root": "ر د د",
-            "pos": "participe actif / adjectif",
-            "note": "De تردّد = hésiter"
-        },
-        "جاءَتْني": {
-            "fr": "m’est venue",
-            "root": "ج ي ء",
-            "pos": "verbe (passé, 3e fém. sing.) + pronom (-ني)",
-            "note": "Accord fém. car فكرة (idée) est fém."
-        },
-        "فكرةٌ": {
-            "fr": "une idée",
-            "root": "ف ك ر",
-            "pos": "nom",
-            "note": ""
-        },
-        "سأفعلُ": {
-            "fr": "je ferai",
-            "root": "ف ع ل",
-            "pos": "verbe (futur, 1re pers.)",
-            "note": "سـ = marque du futur proche"
-        },
-        "مثلَما": {
-            "fr": "comme / exactement comme",
-            "root": null,
-            "pos": "locution",
-            "note": "مثل + ما (valeur comparative)"
-        },
-        "فعلَ": {
-            "fr": "il a fait",
-            "root": "ف ع ل",
-            "pos": "verbe (passé, 3e masc. sing.)",
-            "note": ""
-        },
-        "سأشاركُهُ": {
-            "fr": "je partagerai avec lui",
-            "root": "ش ر ك",
-            "pos": "verbe (futur) + pronom (-ه)",
-            "note": "شارك = partager ; -ه = “avec lui / le” selon contexte"
-        },
-        "لديَّ": {
-            "fr": "j’ai / en ma possession",
-            "root": null,
-            "pos": "expression (لدى + ياء المتكلم)",
-            "note": "لدى = chez / auprès de ; لديَّ = “j’ai”"
-        },
-        "الجوُّ": {
-            "fr": "le temps / l’atmosphère",
-            "root": "ج و و",
-            "pos": "nom",
-            "note": ""
-        },
-        "الجديدُ": {
-            "fr": "nouveau",
-            "root": "ج د د",
-            "pos": "adjectif",
-            "note": "Accorde avec الجو"
-        },
-        "وهذهِ": {
-            "fr": "et ces / et cette",
-            "root": null,
-            "pos": "و + démonstratif (هذه)",
-            "note": "هذه = “cette” (fém.), ici : “et ces vêtements”"
-        },
-        "الثِّيابُ": {
-            "fr": "les vêtements / habits",
-            "root": "ث و ب",
-            "pos": "nom (pluriel)",
-            "note": "Singulier : ثوب"
-        },
-        "الجميلةُ": {
-            "fr": "beaux / belles",
-            "root": "ج م ل",
-            "pos": "adjectif",
-            "note": "Accorde avec الثياب"
-        },
-        "تُناسِبُ": {
-            "fr": "conviennent à / vont à",
-            "root": "ن س ب",
-            "pos": "verbe (présent, 3e fém. sing.)",
-            "note": "Accord fém. car “الثياب” non-humain → verbe fém. sing. fréquent"
-        },
-        "الوَلَدَ": {
-            "fr": "l’enfant (COD)",
-            "root": "و ل د",
-            "pos": "nom à l’accusatif",
-            "note": "Même mot que الوَلَدُ, cas différent"
-        },
-        "أصبحَ": {
-            "fr": "il est devenu",
-            "root": "ص ب ح",
-            "pos": "verbe (passé, 3e masc. sing.)",
-            "note": "Changement d’état : devenir"
-        },
-        "بالدِّفءِ": {
-            "fr": "la chaleur / au chaud",
-            "root": "د ف ء",
-            "pos": "بـ + nom",
-            "note": "Sens : “ressentir la chaleur / se sentir au chaud”"
-        },
-        "وأصبحتُ": {
-            "fr": "et je suis devenu(e)",
-            "root": "ص ب ح",
-            "pos": "و + verbe أصبح (passé, 1re pers.)",
-            "note": ""
-        },
-        "أنا": {
-            "fr": "moi / je",
-            "root": null,
-            "pos": "pronom personnel",
-            "note": ""
-        },
-        "سعيدًا": {
-            "fr": "heureux",
-            "root": "س ع د",
-            "pos": "adjectif (accusatif)",
-            "note": "Forme indéfinie, cas accusatif (tanwīn)"
-        },
-        "مثلَ": {
-            "fr": "comme",
-            "root": "م ث ل",
-            "pos": "préposition / nom (comparatif)",
-            "note": "Introduit une comparaison : مثلَ الربيع"
-        },
-        "الرَّبيعِ": {
-            "fr": "du printemps / le printemps (après préposition)",
-            "root": "ر ب ع",
-            "pos": "nom au génitif",
-            "note": "Après مثلَ, le nom est au génitif (ـِ)"
-        },
-        "شُكرًا": {
-            "fr": "merci",
-            "root": "ش ك ر",
-            "pos": "expression / مصدر (nom d’action)",
-            "note": "De شكر = remercier"
-        },
-        "فسأكونُ": {
-            "fr": "donc je serai",
-            "root": "ك و ن",
-            "pos": "فـ (conséquence) + verbe (futur) من كان",
-            "note": "سـ = futur ; “être” au futur"
-        },
-        "حريصًا": {
-            "fr": "attentif / soucieux de",
-            "root": "ح ر ص",
-            "pos": "adjectif",
-            "note": "Être حريصًا على = veiller à / tenir à"
-        },
-        "أفعلَ": {
-            "fr": "que je fasse / faire",
-            "root": "ف ع ل",
-            "pos": "verbe (subjonctif / منصوب)",
-            "note": "Après أن (sous-entendu ici), le verbe peut être منصوب"
-        },
-        "مثلَكَ": {
-            "fr": "comme toi",
-            "root": "م ث ل",
-            "pos": "comparatif + pronom suffixé (-كَ)",
-            "note": "-كَ = “toi” (2e masc. sing.)"
-        },
-        "دائمًا": {
-            "fr": "toujours",
-            "root": "د و م",
-            "pos": "adverbe",
-            "note": "De دام = durer"
-        },
-        "وأهتمُّ": {
-            "fr": "et je m’adresse / et je demande (avec intérêt)",
-            "root": "ه ت م",
-            "pos": "verbe (présent, 1re pers.)",
-            "note": "Ici : “je m’adresse à vous / je vous demande”"
-        },
-        "يا": {
-            "fr": "ô / hé",
-            "root": null,
-            "pos": "particule d’appel",
-            "note": "Utilisée pour interpeller"
-        },
-        "أصدقاءُ": {
-            "fr": "amis",
-            "root": "ص د ق",
-            "pos": "nom (pluriel)",
-            "note": "Singulier : صديق"
-        },
-        "هل": {
-            "fr": "est-ce que ?",
-            "root": null,
-            "pos": "particule interrogative",
-            "note": "Introduit une question oui/non"
-        },
-        "ستفعلونَ": {
-            "fr": "ferez-vous",
-            "root": "ف ع ل",
-            "pos": "verbe (futur, 2e pers. masc. plur.)",
-            "note": "سـ = futur ; ـون = terminaison pluriel"
-        },
-         "ماذا": {
-            "fr": "quoi / que… ?",
-            "root": null,
-            "pos": "mot interrogatif",
-            "note": "Utilisé pour poser une question : « ماذا…؟ » = « qu’est-ce que… ? »"
-        },
-        "في": {
-            "fr": "dans",
-            "root": null,
-            "pos": "préposition",
-            "note": ""
-        },
-        "غُرْفَتِك": {
-            "fr": "ta chambre",
-            "root": "غ ر ف",
-            "pos": "nom + pronom suffixé (ـك)",
-            "note": "غُرْفَة = chambre ; ـك = « ton/ta »"
-        },
-        "اُنْظُرْ": {
-            "fr": "regarde",
-            "root": "ن ظ ر",
-            "pos": "verbe (impératif, 2e masc. sing.)",
-            "note": ""
-        },
-        "وَاسْتَمِعْ": {
-            "fr": "et écoute",
-            "root": "س م ع",
-            "pos": "و + verbe (impératif)",
-            "note": "اسْتَمَعَ = écouter (forme X)"
-        },
-        "وَرَدِّدْ": {
-            "fr": "et répète",
-            "root": "ر د د",
-            "pos": "و + verbe (impératif)",
-            "note": "رَدَّدَ = répéter"
-        },
-        "صباحُ": {
-            "fr": "matin",
-            "root": "ص ب ح",
-            "pos": "nom",
-            "note": "Dans « صباحُ الخير » : expression de salutation."
-        },
-        "الخيرِ": {
-            "fr": "du bien",
-            "root": "خ ي ر",
-            "pos": "nom",
-            "note": "صباح الخير = « bonjour » (litt. « matin du bien »)."
-        },
-        "يا": {
-            "fr": "ô / hé",
-            "root": null,
-            "pos": "particule d’appel",
-            "note": "Sert à interpeller quelqu’un."
-        },
-        "خالتي": {
-            "fr": "ma tante (côté maternel)",
-            "root": "خ و ل",
-            "pos": "nom + pronom suffixé (ـي)",
-            "note": "خالة = tante maternelle ; ـي = « ma »"
-        },
-        "أهلًا": {
-            "fr": "bienvenue",
-            "root": "أ ه ل",
-            "pos": "expression",
-            "note": "Souvent avec « وسهلًا » : أهلًا وسهلًا."
-        },
-        "وسهلًا": {
-            "fr": "et (sois) à l’aise / (bienvenue)",
-            "root": "س ه ل",
-            "pos": "expression",
-            "note": "Expression figée avec « أهلًا »."
-        },
-        "تفضّلي": {
-            "fr": "entre / vas-y (poliment, féminin)",
-            "root": "ف ض ل",
-            "pos": "verbe (impératif poli, fém.)",
-            "note": "Forme polie adressée à une femme."
-        },
-        "بالدخول": {
-            "fr": "en entrant / à entrer",
-            "root": "د خ ل",
-            "pos": "بـ + nom d’action",
-            "note": "الدخول = l’entrée ; بـ = « par / en »"
-        },
-        "هل": {
-            "fr": "est-ce que ?",
-            "root": null,
-            "pos": "particule interrogative (oui/non)",
-            "note": ""
-        },
-        "فاطمةُ": {
-            "fr": "Fatima",
-            "root": null,
-            "pos": "nom propre",
-            "note": ""
-        },
-        "هنا": {
-            "fr": "ici",
-            "root": null,
-            "pos": "adverbe de lieu",
-            "note": ""
-        },
-        "نعم": {
-            "fr": "oui",
-            "root": null,
-            "pos": "particule de réponse",
-            "note": ""
-        },
-        "غُرْفَتِها": {
-            "fr": "sa chambre (à elle)",
-            "root": "غ ر ف",
-            "pos": "nom + pronom suffixé (ـها)",
-            "note": "ـها = « sa/son (à elle) »"
-        },
-        "سعاد": {
-            "fr": "Souad",
-            "root": null,
-            "pos": "nom propre",
-            "note": ""
-        },
-        "ادخلي": {
-            "fr": "entre (féminin)",
-            "root": "د خ ل",
-            "pos": "verbe (impératif, fém.)",
-            "note": "Adresse à une femme."
-        },
-        "غُرْفَتُكِ": {
-            "fr": "ta chambre (à toi, féminin)",
-            "root": "غ ر ف",
-            "pos": "nom + pronom suffixé (ـكِ)",
-            "note": "ـكِ = « ta » (féminin)"
-        },
-        "واسعةٌ": {
-            "fr": "spacieuse",
-            "root": "و س ع",
-            "pos": "adjectif",
-            "note": ""
-        },
-        "ومُرَتَّبةٌ": {
-            "fr": "et bien rangée",
-            "root": "ر ت ب",
-            "pos": "و + adjectif (participe)",
-            "note": "رَتَّبَ = ranger / organiser (forme II)."
-        },
-        "هذا": {
-            "fr": "ceci / voici (masc.)",
-            "root": null,
-            "pos": "démonstratif",
-            "note": "هذا (m.) / هذه (f.)."
-        },
-        "سريري": {
-            "fr": "mon lit",
-            "root": "س ر ر",
-            "pos": "nom + suffixe (ـي)",
-            "note": "سرير = lit ; ـي = « mon »"
-        },
-        "وهذا": {
-            "fr": "et voici (masc.)",
-            "root": null,
-            "pos": "و + démonstratif",
-            "note": ""
-        },
-        "مكتبي": {
-            "fr": "mon bureau",
-            "root": "ك ت ب",
-            "pos": "nom + suffixe (ـي)",
-            "note": "مكتب = bureau ; ـي = « mon »"
-        },
-        "وهذه": {
-            "fr": "et voici (féminin)",
-            "root": null,
-            "pos": "و + démonstratif (f.)",
-            "note": ""
-        },
-        "خزانةٌ": {
-            "fr": "une armoire",
-            "root": "خ ز ن",
-            "pos": "nom",
-            "note": ""
-        },
-        "أعلّقُ": {
-            "fr": "je suspends",
-            "root": "ع ل ق",
-            "pos": "verbe (présent, 1re pers.)",
-            "note": "علّق = accrocher / suspendre (forme II)."
-        },
-        "فيها": {
-            "fr": "dans laquelle / dedans",
-            "root": null,
-            "pos": "في + pronom (ـها)",
-            "note": "ـها renvoie à خزانة (féminin)."
-        },
-        "ثيابي": {
-            "fr": "mes vêtements",
-            "root": "ث و ب",
-            "pos": "nom (pluriel) + suffixe (ـي)",
-            "note": "ثوب (sg.) / ثياب (pl.)."
-        },
-        "مكتبتي": {
-            "fr": "ma bibliothèque",
-            "root": "ك ت ب",
-            "pos": "nom + suffixe (ـي)",
-            "note": "مكتبة = bibliothèque."
-        },
-        "مكتبتُكِ": {
-            "fr": "ta bibliothèque (fém.)",
-            "root": "ك ت ب",
-            "pos": "nom + pronom suffixé (ـكِ)",
-            "note": ""
-        },
-        "مملوءةٌ": {
-            "fr": "remplie",
-            "root": "م ل أ",
-            "pos": "adjectif / participe",
-            "note": "مملوء = rempli."
-        },
-        "بالكتب": {
-            "fr": "de livres / avec des livres",
-            "root": "ك ت ب",
-            "pos": "بـ + nom pluriel",
-            "note": "كتاب (sg.) / كتب (pl.)."
-        },
-        "من": {
-            "fr": "qui",
-            "root": null,
-            "pos": "mot interrogatif / relatif",
-            "note": "Ici : « Qui a acheté… ? »"
-        },
-        "اشترى": {
-            "fr": "il a acheté",
-            "root": "ش ر ي",
-            "pos": "verbe (passé, 3e masc. sing.)",
-            "note": ""
-        },
-        "لكِ": {
-            "fr": "pour toi (féminin)",
-            "root": null,
-            "pos": "préposition لـ + pronom (ـكِ)",
-            "note": ""
-        },
-        "هذه": {
-            "fr": "ces / cette (féminin)",
-            "root": null,
-            "pos": "démonstratif (f.)",
-            "note": "Peut signifier « cette » ou « ces » selon le nom."
-        },
-        "الكتبَ": {
-            "fr": "les livres",
-            "root": "ك ت ب",
-            "pos": "nom pluriel (défini)",
-            "note": "Écrit ici avec فتحة (accusatif) car COD."
-        },
-        "فاطمة": {
-            "fr": "Fatima",
-            "root": null,
-            "pos": "nom propre",
-            "note": "Même nom, sans voyelles finales."
-        },
-        "أبي": {
-            "fr": "mon père",
-            "root": "أ ب و",
-            "pos": "nom + suffixe (ـي)",
-            "note": "أب = père ; أبي = « mon père » (forme en iḍāfa/oblique)."
-        },
-        "يشتريها": {
-            "fr": "il les achète",
-            "root": "ش ر ي",
-            "pos": "verbe (présent) + pronom objet (ـها)",
-            "note": "ـها renvoie ici à الكتب (non-humain → souvent traité comme fém. sing.)."
-        },
-        "مناسباتٍ": {
-            "fr": "des occasions",
-            "root": "ن س ب",
-            "pos": "nom (pluriel)",
-            "note": "مناسبة = occasion."
-        },
-        "مختلفةٍ": {
-            "fr": "différentes",
-            "root": "خ ل ف",
-            "pos": "adjectif",
-            "note": ""
-        },
-        "ويُقدِّمُها": {
-            "fr": "et il les offre / les présente",
-            "root": "ق د م",
-            "pos": "و + verbe (présent) + pronom objet (ـها)",
-            "note": "قدّم = offrir / présenter (forme II)."
-        },
-        "لي": {
-            "fr": "à moi / pour moi",
-            "root": null,
-            "pos": "préposition لـ + pronom (ـي)",
-            "note": ""
-        },
-        "هدايا": {
-            "fr": "des cadeaux",
-            "root": "ه د ي",
-            "pos": "nom (pluriel)",
-            "note": "هدية (sg.) / هدايا (pl.)."
-        },
-        "أنا": {
-            "fr": "moi / je",
-            "root": null,
-            "pos": "pronom personnel",
-            "note": ""
-        },
-        "أحبُّ": {
-            "fr": "j’aime",
-            "root": "ح ب ب",
-            "pos": "verbe (présent, 1re pers.)",
-            "note": ""
-        },
-        "المطالعة": {
-            "fr": "la lecture",
-            "root": "ط ل ع",
-            "pos": "nom",
-            "note": "Ici : lire / faire de la lecture."
-        },
-        "سأطلبُ": {
-            "fr": "je demanderai",
-            "root": "ط ل ب",
-            "pos": "verbe (futur proche, 1re pers.)",
-            "note": "سـ = futur proche."
-        },
-        "أن": {
-            "fr": "que / de (introduit un verbe)",
-            "root": null,
-            "pos": "particule",
-            "note": "Introduit un verbe au subjonctif (منصوب)."
-        },
-        "يصنعَ": {
-            "fr": "qu’il fabrique",
-            "root": "ص ن ع",
-            "pos": "verbe (subjonctif)",
-            "note": "Après أن."
-        },
-        "مكتبةً": {
-            "fr": "une bibliothèque",
-            "root": "ك ت ب",
-            "pos": "nom (indéfini)",
-            "note": "مكتبة = bibliothèque ; tanwīn = indéfini."
+    "vocabulaire": {
+      "title_ar": "ماذا في غُرْفَتِك؟",
+      "title_fr": "Qu’y a-t-il dans ta chambre ?",
+      "phrases": [
+        {
+          "id": "p00",
+          "ar": "ماذا في غُرْفَتِك؟",
+          "fr_fluent": "Qu’y a-t-il dans ta chambre ?",
+          "fr_word_by_word": "quoi / dans / ta-chambre",
+          "tokens": [
+            { "t": "ماذا", "clickable": true },
+            { "t": "في", "clickable": true },
+            { "t": "غُرْفَتِك", "clickable": true }
+          ]
+        },
+        {
+          "id": "p01",
+          "ar": "اُنْظُرْ وَاسْتَمِعْ وَرَدِّدْ.",
+          "fr_fluent": "Regarde, écoute et répète.",
+          "fr_word_by_word": "regarde / et / écoute / et / répète",
+          "tokens": [
+            { "t": "اُنْظُرْ", "clickable": true },
+            { "t": "وَاسْتَمِعْ", "clickable": true },
+            { "t": "وَرَدِّدْ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p02",
+          "ar": "صباحُ الخيرِ يا خالتي.",
+          "fr_fluent": "Bonjour, ma tante.",
+          "fr_word_by_word": "matin / du-bien / ô / ma-tante",
+          "tokens": [
+            { "t": "صباحُ", "clickable": true },
+            { "t": "الخيرِ", "clickable": true },
+            { "t": "يا", "clickable": true },
+            { "t": "خالتي", "clickable": true }
+          ]
+        },
+        {
+          "id": "p03",
+          "ar": "أهلًا وسهلًا، تفضّلي بالدخول.",
+          "fr_fluent": "Bienvenue, entre s’il te plaît.",
+          "fr_word_by_word": "bienvenue / et / (bienvenue) / entre (poliment, fém.) / en-entrant",
+          "tokens": [
+            { "t": "أهلًا", "clickable": true },
+            { "t": "وسهلًا", "clickable": true },
+            { "t": "تفضّلي", "clickable": true },
+            { "t": "بالدخول", "clickable": true }
+          ]
+        },
+        {
+          "id": "p04",
+          "ar": "هل فاطمةُ هنا؟",
+          "fr_fluent": "Fatima est-elle ici ?",
+          "fr_word_by_word": "est-ce-que / Fatima / ici",
+          "tokens": [
+            { "t": "هل", "clickable": true },
+            { "t": "فاطمةُ", "clickable": true },
+            { "t": "هنا", "clickable": true }
+          ]
+        },
+        {
+          "id": "p05",
+          "ar": "نعم، فاطمةُ في غُرْفَتِها.",
+          "fr_fluent": "Oui, Fatima est dans sa chambre.",
+          "fr_word_by_word": "oui / Fatima / dans / sa-chambre",
+          "tokens": [
+            { "t": "نعم", "clickable": true },
+            { "t": "فاطمةُ", "clickable": true },
+            { "t": "في", "clickable": true },
+            { "t": "غُرْفَتِها", "clickable": true }
+          ]
+        },
+        {
+          "id": "p06",
+          "ar": "صباحُ الخيرِ يا سعاد، ادخلي.",
+          "fr_fluent": "Bonjour Souad, entre.",
+          "fr_word_by_word": "matin / du-bien / ô / Souad / entre (fém.)",
+          "tokens": [
+            { "t": "صباحُ", "clickable": true },
+            { "t": "الخيرِ", "clickable": true },
+            { "t": "يا", "clickable": true },
+            { "t": "سعاد", "clickable": true },
+            { "t": "ادخلي", "clickable": true }
+          ]
+        },
+        {
+          "id": "p07",
+          "ar": "غُرْفَتُكِ واسعةٌ ومُرَتَّبةٌ.",
+          "fr_fluent": "Ta chambre est spacieuse et bien rangée.",
+          "fr_word_by_word": "ta-chambre / spacieuse / et / rangée",
+          "tokens": [
+            { "t": "غُرْفَتُكِ", "clickable": true },
+            { "t": "واسعةٌ", "clickable": true },
+            { "t": "ومُرَتَّبةٌ", "clickable": true }
+          ]
+        },
+        {
+          "id": "p08",
+          "ar": "هذا سريري، وهذا مكتبي.",
+          "fr_fluent": "Voici mon lit, et voici mon bureau.",
+          "fr_word_by_word": "ceci / mon-lit / et / ceci / mon-bureau",
+          "tokens": [
+            { "t": "هذا", "clickable": true },
+            { "t": "سريري", "clickable": true },
+            { "t": "وهذا", "clickable": true },
+            { "t": "مكتبي", "clickable": true }
+          ]
+        },
+        {
+          "id": "p09",
+          "ar": "وهذه خزانةٌ أعلّقُ فيها ثيابي.",
+          "fr_fluent": "Et voici une armoire où je suspends mes vêtements.",
+          "fr_word_by_word": "et / ceci (f.) / une-armoire / je-suspends / dans-laquelle / mes-vêtements",
+          "tokens": [
+            { "t": "وهذه", "clickable": true },
+            { "t": "خزانةٌ", "clickable": true },
+            { "t": "أعلّقُ", "clickable": true },
+            { "t": "فيها", "clickable": true },
+            { "t": "ثيابي", "clickable": true }
+          ]
+        },
+        {
+          "id": "p10",
+          "ar": "وهذه مكتبتي.",
+          "fr_fluent": "Et voici ma bibliothèque.",
+          "fr_word_by_word": "et / ceci (f.) / ma-bibliothèque",
+          "tokens": [
+            { "t": "وهذه", "clickable": true },
+            { "t": "مكتبتي", "clickable": true }
+          ]
+        },
+        {
+          "id": "p11",
+          "ar": "مكتبتُكِ مملوءةٌ بالكتب.",
+          "fr_fluent": "Ta bibliothèque est remplie de livres.",
+          "fr_word_by_word": "ta-bibliothèque / remplie / de-livres",
+          "tokens": [
+            { "t": "مكتبتُكِ", "clickable": true },
+            { "t": "مملوءةٌ", "clickable": true },
+            { "t": "بالكتب", "clickable": true }
+          ]
+        },
+        {
+          "id": "p12",
+          "ar": "من اشترى لكِ هذه الكتبَ يا فاطمة؟",
+          "fr_fluent": "Qui t’a acheté ces livres, Fatima ?",
+          "fr_word_by_word": "qui / a-acheté / pour-toi / ces / livres / ô / Fatima",
+          "tokens": [
+            { "t": "من", "clickable": true },
+            { "t": "اشترى", "clickable": true },
+            { "t": "لكِ", "clickable": true },
+            { "t": "هذه", "clickable": true },
+            { "t": "الكتبَ", "clickable": true },
+            { "t": "يا", "clickable": true },
+            { "t": "فاطمة", "clickable": true }
+          ]
+        },
+        {
+          "id": "p13",
+          "ar": "أبي يشتريها في مناسباتٍ مختلفةٍ ويُقدِّمُها لي هدايا.",
+          "fr_fluent": "Mon père les achète à différentes occasions et me les offre en cadeaux.",
+          "fr_word_by_word": "mon-père / les-achète / dans / occasions / différentes / et / les-offre / à-moi / (comme) cadeaux",
+          "tokens": [
+            { "t": "أبي", "clickable": true },
+            { "t": "يشتريها", "clickable": true },
+            { "t": "في", "clickable": true },
+            { "t": "مناسباتٍ", "clickable": true },
+            { "t": "مختلفةٍ", "clickable": true },
+            { "t": "ويُقدِّمُها", "clickable": true },
+            { "t": "لي", "clickable": true },
+            { "t": "هدايا", "clickable": true }
+          ]
+        },
+        {
+          "id": "p14",
+          "ar": "أنا أحبُّ المطالعة.",
+          "fr_fluent": "J’aime la lecture.",
+          "fr_word_by_word": "moi / j’aime / la-lecture",
+          "tokens": [
+            { "t": "أنا", "clickable": true },
+            { "t": "أحبُّ", "clickable": true },
+            { "t": "المطالعة", "clickable": true }
+          ]
+        },
+        {
+          "id": "p15",
+          "ar": "سأطلبُ من أبي أن يصنعَ لي مكتبةً.",
+          "fr_fluent": "Je demanderai à mon père de me fabriquer une bibliothèque.",
+          "fr_word_by_word": "je-demanderai / à / mon-père / que / il-fabrique / pour-moi / une-bibliothèque",
+          "tokens": [
+            { "t": "سأطلبُ", "clickable": true },
+            { "t": "من", "clickable": true },
+            { "t": "أبي", "clickable": true },
+            { "t": "أن", "clickable": true },
+            { "t": "يصنعَ", "clickable": true },
+            { "t": "لي", "clickable": true },
+            { "t": "مكتبةً", "clickable": true }
+          ]
         }
+      ]
     }
+  },
+  "dictionary": {
+    "عَلَّمَنِي": {
+      "fr": "il m’a appris / il m’a enseigné",
+      "root": "ع ل م",
+      "pos": "verbe (passé, forme II) + pronom objet (-ني)",
+      "note": "علّم = enseigner (forme II : intensif/causatif) ; -ني = “à moi”"
+    },
+    "الرَّبِيعُ": {
+      "fr": "le printemps",
+      "root": "ر ب ع",
+      "pos": "nom",
+      "note": "Ici, le printemps est personnifié"
+    },
+    "لقد": {
+      "fr": "en effet / certes",
+      "root": null,
+      "pos": "particule (insistance)",
+      "note": "Souvent avec un verbe au passé pour insister sur le fait"
+    },
+    "جاءَ": {
+      "fr": "il est venu / il est arrivé",
+      "root": "ج ي ء",
+      "pos": "verbe (passé, 3e masc. sing.)",
+      "note": "Verbe très fréquent : venir / arriver"
+    },
+    "الخريفُ": {
+      "fr": "l’automne",
+      "root": "خ ر ف",
+      "pos": "nom",
+      "note": ""
+    },
+    "وجفَّتْ": {
+      "fr": "et ont séché",
+      "root": "ج ف ف",
+      "pos": "conjonction و + verbe (passé, 3e fém. sing.)",
+      "note": "Le pluriel non-humain prend souvent le verbe au féminin singulier"
+    },
+    "أوراقُ": {
+      "fr": "feuilles",
+      "root": "و ر ق",
+      "pos": "nom (pluriel)",
+      "note": "Singulier : وَرَقَة"
+    },
+    "الشَّجرِ": {
+      "fr": "les arbres",
+      "root": "ش ج ر",
+      "pos": "nom collectif",
+      "note": "Souvent utilisé comme collectif : “les arbres”"
+    },
+    "ثمَّ": {
+      "fr": "puis / ensuite",
+      "root": null,
+      "pos": "adverbe / particule de succession",
+      "note": ""
+    },
+    "الشِّتاءُ": {
+      "fr": "l’hiver",
+      "root": "ش ت و",
+      "pos": "nom",
+      "note": ""
+    },
+    "وأصبحتْ": {
+      "fr": "et sont devenues",
+      "root": "ص ب ح",
+      "pos": "و + verbe أصبح (passé, 3e fém. sing.)",
+      "note": "أصبح = devenir / se mettre à (changement d’état)"
+    },
+    "أغصانُ": {
+      "fr": "branches",
+      "root": "غ ص ن",
+      "pos": "nom (pluriel)",
+      "note": "Singulier : غُصْن"
+    },
+    "عاريةً": {
+      "fr": "nues / dénudées",
+      "root": "ع ر ي",
+      "pos": "adjectif",
+      "note": "عارٍ (m.) / عارية (f.)"
+    },
+    "ما": {
+      "fr": "comme… ! (exclamation)",
+      "root": null,
+      "pos": "particule (exclamative)",
+      "note": "Structure : ما + أفعلَ (ex : ما أجملَكَ)"
+    },
+    "أجملَكَ": {
+      "fr": "comme tu es beau !",
+      "root": "ج م ل",
+      "pos": "forme exclamative + pronom (-كَ)",
+      "note": "Sens littéral : “qu’est-ce qui te rend beau !” → “comme tu es beau !”"
+    },
+    "أيُّها": {
+      "fr": "ô (terme d’interpellation)",
+      "root": null,
+      "pos": "outil d’appel / interpellation",
+      "note": "Souvent : أيها (m.) / أيتها (f.)"
+    },
+    "فقد": {
+      "fr": "ainsi / car / en effet",
+      "root": null,
+      "pos": "particule (lien logique)",
+      "note": "Introduit une explication ou conséquence"
+    },
+    "كَسَوتَ": {
+      "fr": "tu as recouvert / tu as habillé",
+      "root": "ك س و",
+      "pos": "verbe (passé, 2e masc. sing.)",
+      "note": "Ici : “habiller les branches de feuilles”"
+    },
+    "أغصانَ": {
+      "fr": "des branches (COD)",
+      "root": "غ ص ن",
+      "pos": "nom (pluriel) à l’accusatif",
+      "note": "Même mot que أغصانُ mais avec une autre voyelle (cas)"
+    },
+    "بالأوراقِ": {
+      "fr": "avec / de feuilles",
+      "root": "و ر ق",
+      "pos": "بـ (préposition) + nom pluriel",
+      "note": "بـ = avec / par / au moyen de"
+    },
+    "الخضراءِ": {
+      "fr": "vertes",
+      "root": "خ ض ر",
+      "pos": "adjectif (fém.)",
+      "note": "أخضر (m.) / خضراء (f.)"
+    },
+    "الجميلةِ": {
+      "fr": "belles",
+      "root": "ج م ل",
+      "pos": "adjectif",
+      "note": "Accord avec الأوراق الخضراء"
+    },
+    "أشعرُ": {
+      "fr": "je ressens / je sens",
+      "root": "ش ع ر",
+      "pos": "verbe (présent, 1re pers. sing.)",
+      "note": ""
+    },
+    "أنَّ": {
+      "fr": "que",
+      "root": null,
+      "pos": "particule de subordination",
+      "note": "Introduit une proposition complétive (أنّ + nominale)"
+    },
+    "الرَّبيعَ": {
+      "fr": "le printemps (COD)",
+      "root": "ر ب ع",
+      "pos": "nom à l’accusatif",
+      "note": "Même mot que الرَّبيعُ mais cas différent"
+    },
+    "سعيدٌ": {
+      "fr": "heureux",
+      "root": "س ع د",
+      "pos": "adjectif",
+      "note": ""
+    },
+    "بما": {
+      "fr": "de ce que / de ce qui",
+      "root": null,
+      "pos": "préposition + pronom relatif (بـ + ما)",
+      "note": "Exprime la cause / le contenu : “de ce qu’il fait”"
+    },
+    "يفعلُ": {
+      "fr": "il fait",
+      "root": "ف ع ل",
+      "pos": "verbe (présent, 3e masc. sing.)",
+      "note": "فعل = faire (verbe très général)"
+    },
+    "هذا": {
+      "fr": "ce / cet",
+      "root": null,
+      "pos": "déterminant démonstratif",
+      "note": "هذا (m.) / هذه (f.)"
+    },
+    "الوَلَدُ": {
+      "fr": "l’enfant / le garçon",
+      "root": "و ل د",
+      "pos": "nom",
+      "note": "Peut signifier enfant/garçon selon contexte"
+    },
+    "يَشعُرُ": {
+      "fr": "il ressent",
+      "root": "ش ع ر",
+      "pos": "verbe (présent, 3e masc. sing.)",
+      "note": "Même racine que أشعرُ"
+    },
+    "بالبردِ": {
+      "fr": "du froid / le froid",
+      "root": "ب ر د",
+      "pos": "بـ + nom",
+      "note": "Sens : “il ressent du froid”"
+    },
+    "هو": {
+      "fr": "il",
+      "root": null,
+      "pos": "pronom personnel",
+      "note": ""
+    },
+    "يلبسُ": {
+      "fr": "il porte (des vêtements)",
+      "root": "ل ب س",
+      "pos": "verbe (présent, 3e masc. sing.)",
+      "note": ""
+    },
+    "ملابسَ": {
+      "fr": "des vêtements",
+      "root": "ل ب س",
+      "pos": "nom (pluriel) à l’accusatif",
+      "note": "Singulier : ملبس / لباس (selon usage)"
+    },
+    "قديمةً": {
+      "fr": "vieux / usés",
+      "root": "ق د م",
+      "pos": "adjectif (fém. sing.)",
+      "note": "Accorde avec ملابس (non-humain → accord fém. sing. fréquent)"
+    },
+    "وجاءَ": {
+      "fr": "et il est venu / et il est arrivé",
+      "root": "ج ي ء",
+      "pos": "و + verbe (passé)",
+      "note": "Même verbe que جاءَ, précédé de و"
+    },
+    "مُتردِّدًا": {
+      "fr": "hésitant",
+      "root": "ر د د",
+      "pos": "participe actif / adjectif",
+      "note": "De تردّد = hésiter"
+    },
+    "جاءَتْني": {
+      "fr": "m’est venue",
+      "root": "ج ي ء",
+      "pos": "verbe (passé, 3e fém. sing.) + pronom (-ني)",
+      "note": "Accord fém. car فكرة (idée) est fém."
+    },
+    "فكرةٌ": {
+      "fr": "une idée",
+      "root": "ف ك ر",
+      "pos": "nom",
+      "note": ""
+    },
+    "سأفعلُ": {
+      "fr": "je ferai",
+      "root": "ف ع ل",
+      "pos": "verbe (futur, 1re pers.)",
+      "note": "سـ = marque du futur proche"
+    },
+    "مثلَما": {
+      "fr": "comme / exactement comme",
+      "root": null,
+      "pos": "locution",
+      "note": "مثل + ما (valeur comparative)"
+    },
+    "فعلَ": {
+      "fr": "il a fait",
+      "root": "ف ع ل",
+      "pos": "verbe (passé, 3e masc. sing.)",
+      "note": ""
+    },
+    "سأشاركُهُ": {
+      "fr": "je partagerai avec lui",
+      "root": "ش ر ك",
+      "pos": "verbe (futur) + pronom (-ه)",
+      "note": "شارك = partager ; -ه = “avec lui / le” selon contexte"
+    },
+    "لديَّ": {
+      "fr": "j’ai / en ma possession",
+      "root": null,
+      "pos": "expression (لدى + ياء المتكلم)",
+      "note": "لدى = chez / auprès de ; لديَّ = “j’ai”"
+    },
+    "الجوُّ": {
+      "fr": "le temps / l’atmosphère",
+      "root": "ج و و",
+      "pos": "nom",
+      "note": ""
+    },
+    "الجديدُ": {
+      "fr": "nouveau",
+      "root": "ج د د",
+      "pos": "adjectif",
+      "note": "Accorde avec الجو"
+    },
+    "وهذهِ": {
+      "fr": "et ces / et cette",
+      "root": null,
+      "pos": "و + démonstratif (هذه)",
+      "note": "هذه = “cette” (fém.), ici : “et ces vêtements”"
+    },
+    "الثِّيابُ": {
+      "fr": "les vêtements / habits",
+      "root": "ث و ب",
+      "pos": "nom (pluriel)",
+      "note": "Singulier : ثوب"
+    },
+    "الجميلةُ": {
+      "fr": "beaux / belles",
+      "root": "ج م ل",
+      "pos": "adjectif",
+      "note": "Accorde avec الثياب"
+    },
+    "تُناسِبُ": {
+      "fr": "conviennent à / vont à",
+      "root": "ن س ب",
+      "pos": "verbe (présent, 3e fém. sing.)",
+      "note": "Accord fém. car “الثياب” non-humain → verbe fém. sing. fréquent"
+    },
+    "الوَلَدَ": {
+      "fr": "l’enfant (COD)",
+      "root": "و ل د",
+      "pos": "nom à l’accusatif",
+      "note": "Même mot que الوَلَدُ, cas différent"
+    },
+    "أصبحَ": {
+      "fr": "il est devenu",
+      "root": "ص ب ح",
+      "pos": "verbe (passé, 3e masc. sing.)",
+      "note": "Changement d’état : devenir"
+    },
+    "بالدِّفءِ": {
+      "fr": "la chaleur / au chaud",
+      "root": "د ف ء",
+      "pos": "بـ + nom",
+      "note": "Sens : “ressentir la chaleur / se sentir au chaud”"
+    },
+    "وأصبحتُ": {
+      "fr": "et je suis devenu(e)",
+      "root": "ص ب ح",
+      "pos": "و + verbe أصبح (passé, 1re pers.)",
+      "note": ""
+    },
+    "أنا": {
+      "fr": "moi / je",
+      "root": null,
+      "pos": "pronom personnel",
+      "note": ""
+    },
+    "سعيدًا": {
+      "fr": "heureux",
+      "root": "س ع د",
+      "pos": "adjectif (accusatif)",
+      "note": "Forme indéfinie, cas accusatif (tanwīn)"
+    },
+    "مثلَ": {
+      "fr": "comme",
+      "root": "م ث ل",
+      "pos": "préposition / nom (comparatif)",
+      "note": "Introduit une comparaison : مثلَ الربيع"
+    },
+    "الرَّبيعِ": {
+      "fr": "du printemps / le printemps (après préposition)",
+      "root": "ر ب ع",
+      "pos": "nom au génitif",
+      "note": "Après مثلَ, le nom est au génitif (ـِ)"
+    },
+    "شُكرًا": {
+      "fr": "merci",
+      "root": "ش ك ر",
+      "pos": "expression / مصدر (nom d’action)",
+      "note": "De شكر = remercier"
+    },
+    "فسأكونُ": {
+      "fr": "donc je serai",
+      "root": "ك و ن",
+      "pos": "فـ (conséquence) + verbe (futur) من كان",
+      "note": "سـ = futur ; “être” au futur"
+    },
+    "حريصًا": {
+      "fr": "attentif / soucieux de",
+      "root": "ح ر ص",
+      "pos": "adjectif",
+      "note": "Être حريصًا على = veiller à / tenir à"
+    },
+    "أفعلَ": {
+      "fr": "que je fasse / faire",
+      "root": "ف ع ل",
+      "pos": "verbe (subjonctif / منصوب)",
+      "note": "Après أن (sous-entendu ici), le verbe peut être منصوب"
+    },
+    "مثلَكَ": {
+      "fr": "comme toi",
+      "root": "م ث ل",
+      "pos": "comparatif + pronom suffixé (-كَ)",
+      "note": "-كَ = “toi” (2e masc. sing.)"
+    },
+    "دائمًا": {
+      "fr": "toujours",
+      "root": "د و م",
+      "pos": "adverbe",
+      "note": "De دام = durer"
+    },
+    "وأهتمُّ": {
+      "fr": "et je m’adresse / et je demande (avec intérêt)",
+      "root": "ه ت م",
+      "pos": "verbe (présent, 1re pers.)",
+      "note": "Ici : “je m’adresse à vous / je vous demande”"
+    },
+    "يا": {
+      "fr": "ô / hé",
+      "root": null,
+      "pos": "particule d’appel",
+      "note": "Utilisée pour interpeller"
+    },
+    "أصدقاءُ": {
+      "fr": "amis",
+      "root": "ص د ق",
+      "pos": "nom (pluriel)",
+      "note": "Singulier : صديق"
+    },
+    "هل": {
+      "fr": "est-ce que ?",
+      "root": null,
+      "pos": "particule interrogative",
+      "note": "Introduit une question oui/non"
+    },
+    "ستفعلونَ": {
+      "fr": "ferez-vous",
+      "root": "ف ع ل",
+      "pos": "verbe (futur, 2e pers. masc. plur.)",
+      "note": "سـ = futur ; ـون = terminaison pluriel"
+    },
+    "ماذا": {
+      "fr": "quoi / que… ?",
+      "root": null,
+      "pos": "mot interrogatif",
+      "note": "Utilisé pour poser une question : « ماذا…؟ » = « qu’est-ce que… ? »"
+    },
+    "في": {
+      "fr": "dans",
+      "root": null,
+      "pos": "préposition",
+      "note": ""
+    },
+    "غُرْفَتِك": {
+      "fr": "ta chambre",
+      "root": "غ ر ف",
+      "pos": "nom + pronom suffixé (ـك)",
+      "note": "غُرْفَة = chambre ; ـك = « ton/ta »"
+    },
+    "اُنْظُرْ": {
+      "fr": "regarde",
+      "root": "ن ظ ر",
+      "pos": "verbe (impératif, 2e masc. sing.)",
+      "note": ""
+    },
+    "وَاسْتَمِعْ": {
+      "fr": "et écoute",
+      "root": "س م ع",
+      "pos": "و + verbe (impératif)",
+      "note": "اسْتَمَعَ = écouter (forme X)"
+    },
+    "وَرَدِّدْ": {
+      "fr": "et répète",
+      "root": "ر د د",
+      "pos": "و + verbe (impératif)",
+      "note": "رَدَّدَ = répéter"
+    },
+    "صباحُ": {
+      "fr": "matin",
+      "root": "ص ب ح",
+      "pos": "nom",
+      "note": "Dans « صباحُ الخير » : expression de salutation."
+    },
+    "الخيرِ": {
+      "fr": "du bien",
+      "root": "خ ي ر",
+      "pos": "nom",
+      "note": "صباح الخير = « bonjour » (litt. « matin du bien »)."
+    },
+    "يا": {
+      "fr": "ô / hé",
+      "root": null,
+      "pos": "particule d’appel",
+      "note": "Sert à interpeller quelqu’un."
+    },
+    "خالتي": {
+      "fr": "ma tante (côté maternel)",
+      "root": "خ و ل",
+      "pos": "nom + pronom suffixé (ـي)",
+      "note": "خالة = tante maternelle ; ـي = « ma »"
+    },
+    "أهلًا": {
+      "fr": "bienvenue",
+      "root": "أ ه ل",
+      "pos": "expression",
+      "note": "Souvent avec « وسهلًا » : أهلًا وسهلًا."
+    },
+    "وسهلًا": {
+      "fr": "et (sois) à l’aise / (bienvenue)",
+      "root": "س ه ل",
+      "pos": "expression",
+      "note": "Expression figée avec « أهلًا »."
+    },
+    "تفضّلي": {
+      "fr": "entre / vas-y (poliment, féminin)",
+      "root": "ف ض ل",
+      "pos": "verbe (impératif poli, fém.)",
+      "note": "Forme polie adressée à une femme."
+    },
+    "بالدخول": {
+      "fr": "en entrant / à entrer",
+      "root": "د خ ل",
+      "pos": "بـ + nom d’action",
+      "note": "الدخول = l’entrée ; بـ = « par / en »"
+    },
+    "نعم": {
+      "fr": "oui",
+      "root": null,
+      "pos": "particule de réponse",
+      "note": ""
+    },
+    "غُرْفَتِها": {
+      "fr": "sa chambre (à elle)",
+      "root": "غ ر ف",
+      "pos": "nom + pronom suffixé (ـها)",
+      "note": "ـها = « sa/son (à elle) »"
+    },
+    "سعاد": {
+      "fr": "Souad",
+      "root": null,
+      "pos": "nom propre",
+      "note": ""
+    },
+    "ادخلي": {
+      "fr": "entre (féminin)",
+      "root": "د خ ل",
+      "pos": "verbe (impératif, fém.)",
+      "note": "Adresse à une femme."
+    },
+    "غُرْفَتُكِ": {
+      "fr": "ta chambre (à toi, féminin)",
+      "root": "غ ر ف",
+      "pos": "nom + pronom suffixé (ـكِ)",
+      "note": "ـكِ = « ta » (féminin)"
+    },
+    "واسعةٌ": {
+      "fr": "spacieuse",
+      "root": "و س ع",
+      "pos": "adjectif",
+      "note": ""
+    },
+    "ومُرَتَّبةٌ": {
+      "fr": "et bien rangée",
+      "root": "ر ت ب",
+      "pos": "و + adjectif (participe)",
+      "note": "رَتَّبَ = ranger / organiser (forme II)."
+    },
+    "هذا": {
+      "fr": "ceci / voici (masc.)",
+      "root": null,
+      "pos": "démonstratif",
+      "note": "هذا (m.) / هذه (f.)."
+    },
+    "سريري": {
+      "fr": "mon lit",
+      "root": "س ر ر",
+      "pos": "nom + suffixe (ـي)",
+      "note": "سرير = lit ; ـي = « mon »"
+    },
+    "وهذا": {
+      "fr": "et voici (masc.)",
+      "root": null,
+      "pos": "و + démonstratif",
+      "note": ""
+    },
+    "مكتبي": {
+      "fr": "mon bureau",
+      "root": "ك ت ب",
+      "pos": "nom + suffixe (ـي)",
+      "note": "مكتب = bureau ; ـي = « mon »"
+    },
+    "وهذه": {
+      "fr": "et voici (féminin)",
+      "root": null,
+      "pos": "و + démonstratif (f.)",
+      "note": ""
+    },
+    "خزانةٌ": {
+      "fr": "une armoire",
+      "root": "خ ز ن",
+      "pos": "nom",
+      "note": ""
+    },
+    "أعلّقُ": {
+      "fr": "je suspends",
+      "root": "ع ل ق",
+      "pos": "verbe (présent, 1re pers.)",
+      "note": "علّق = accrocher / suspendre (forme II)."
+    },
+    "فيها": {
+      "fr": "dans laquelle / dedans",
+      "root": null,
+      "pos": "في + pronom (ـها)",
+      "note": "ـها renvoie à خزانة (féminin)."
+    },
+    "ثيابي": {
+      "fr": "mes vêtements",
+      "root": "ث و ب",
+      "pos": "nom (pluriel) + suffixe (ـي)",
+      "note": "ثوب (sg.) / ثياب (pl.)."
+    },
+    "مكتبتي": {
+      "fr": "ma bibliothèque",
+      "root": "ك ت ب",
+      "pos": "nom + suffixe (ـي)",
+      "note": "مكتبة = bibliothèque."
+    },
+    "مكتبتُكِ": {
+      "fr": "ta bibliothèque (fém.)",
+      "root": "ك ت ب",
+      "pos": "nom + pronom suffixé (ـكِ)",
+      "note": ""
+    },
+    "مملوءةٌ": {
+      "fr": "remplie",
+      "root": "م ل أ",
+      "pos": "adjectif / participe",
+      "note": "مملوء = rempli."
+    },
+    "بالكتب": {
+      "fr": "de livres / avec des livres",
+      "root": "ك ت ب",
+      "pos": "بـ + nom pluriel",
+      "note": "كتاب (sg.) / كتب (pl.)."
+    },
+    "من": {
+      "fr": "qui",
+      "root": null,
+      "pos": "mot interrogatif / relatif",
+      "note": "Ici : « Qui a acheté… ? »"
+    },
+    "اشترى": {
+      "fr": "il a acheté",
+      "root": "ش ر ي",
+      "pos": "verbe (passé, 3e masc. sing.)",
+      "note": ""
+    },
+    "لكِ": {
+      "fr": "pour toi (féminin)",
+      "root": null,
+      "pos": "préposition لـ + pronom (ـكِ)",
+      "note": ""
+    },
+    "هذه": {
+      "fr": "ces / cette (féminin)",
+      "root": null,
+      "pos": "démonstratif (f.)",
+      "note": "Peut signifier « cette » ou « ces » selon le nom."
+    },
+    "الكتبَ": {
+      "fr": "les livres",
+      "root": "ك ت ب",
+      "pos": "nom pluriel (défini)",
+      "note": "Écrit ici avec فتحة (accusatif) car COD."
+    },
+    "فاطمة": {
+      "fr": "Fatima",
+      "root": null,
+      "pos": "nom propre",
+      "note": "Même nom, sans voyelles finales."
+    },
+    "أبي": {
+      "fr": "mon père",
+      "root": "أ ب و",
+      "pos": "nom + suffixe (ـي)",
+      "note": "أب = père ; أبي = « mon père » (forme en iḍāfa/oblique)."
+    },
+    "يشتريها": {
+      "fr": "il les achète",
+      "root": "ش ر ي",
+      "pos": "verbe (présent) + pronom objet (ـها)",
+      "note": "ـها renvoie ici à الكتب (non-humain → souvent traité comme fém. sing.)."
+    },
+    "مناسباتٍ": {
+      "fr": "des occasions",
+      "root": "ن س ب",
+      "pos": "nom (pluriel)",
+      "note": "مناسبة = occasion."
+    },
+    "مختلفةٍ": {
+      "fr": "différentes",
+      "root": "خ ل ف",
+      "pos": "adjectif",
+      "note": ""
+    },
+    "ويُقدِّمُها": {
+      "fr": "et il les offre / les présente",
+      "root": "ق د م",
+      "pos": "و + verbe (présent) + pronom objet (ـها)",
+      "note": "قدّم = offrir / présenter (forme II)."
+    },
+    "لي": {
+      "fr": "à moi / pour moi",
+      "root": null,
+      "pos": "préposition لـ + pronom (ـي)",
+      "note": ""
+    },
+    "هدايا": {
+      "fr": "des cadeaux",
+      "root": "ه د ي",
+      "pos": "nom (pluriel)",
+      "note": "هدية (sg.) / هدايا (pl.)."
+    },
+    "أحبُّ": {
+      "fr": "j’aime",
+      "root": "ح ب ب",
+      "pos": "verbe (présent, 1re pers.)",
+      "note": ""
+    },
+    "المطالعة": {
+      "fr": "la lecture",
+      "root": "ط ل ع",
+      "pos": "nom",
+      "note": "Ici : lire / faire de la lecture."
+    },
+    "سأطلبُ": {
+      "fr": "je demanderai",
+      "root": "ط ل ب",
+      "pos": "verbe (futur proche, 1re pers.)",
+      "note": "سـ = futur proche."
+    },
+    "أن": {
+      "fr": "que / de (introduit un verbe)",
+      "root": null,
+      "pos": "particule",
+      "note": "Introduit un verbe au subjonctif (منصوب)."
+    },
+    "يصنعَ": {
+      "fr": "qu’il fabrique",
+      "root": "ص ن ع",
+      "pos": "verbe (subjonctif)",
+      "note": "Après أن."
+    },
+    "مكتبةً": {
+      "fr": "une bibliothèque",
+      "root": "ك ت ب",
+      "pos": "nom (indéfini)",
+      "note": "مكتبة = bibliothèque ; tanwīn = indéfini."
+    }
+  }
 }
