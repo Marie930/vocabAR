@@ -483,7 +483,6 @@
             ]
         }
     },
-    
     "dictionary": {
         "عَلَّمَنِي": {
             "fr": "il m’a appris / il m’a enseigné",
@@ -904,6 +903,348 @@
             "root": "ف ع ل",
             "pos": "verbe (futur, 2e pers. masc. plur.)",
             "note": "سـ = futur ; ـون = terminaison pluriel"
+        },
+         "ماذا": {
+            "fr": "quoi / que… ?",
+            "root": null,
+            "pos": "mot interrogatif",
+            "note": "Utilisé pour poser une question : « ماذا…؟ » = « qu’est-ce que… ? »"
+        },
+        "في": {
+            "fr": "dans",
+            "root": null,
+            "pos": "préposition",
+            "note": ""
+        },
+        "غُرْفَتِك": {
+            "fr": "ta chambre",
+            "root": "غ ر ف",
+            "pos": "nom + pronom suffixé (ـك)",
+            "note": "غُرْفَة = chambre ; ـك = « ton/ta »"
+        },
+        "اُنْظُرْ": {
+            "fr": "regarde",
+            "root": "ن ظ ر",
+            "pos": "verbe (impératif, 2e masc. sing.)",
+            "note": ""
+        },
+        "وَاسْتَمِعْ": {
+            "fr": "et écoute",
+            "root": "س م ع",
+            "pos": "و + verbe (impératif)",
+            "note": "اسْتَمَعَ = écouter (forme X)"
+        },
+        "وَرَدِّدْ": {
+            "fr": "et répète",
+            "root": "ر د د",
+            "pos": "و + verbe (impératif)",
+            "note": "رَدَّدَ = répéter"
+        },
+        "صباحُ": {
+            "fr": "matin",
+            "root": "ص ب ح",
+            "pos": "nom",
+            "note": "Dans « صباحُ الخير » : expression de salutation."
+        },
+        "الخيرِ": {
+            "fr": "du bien",
+            "root": "خ ي ر",
+            "pos": "nom",
+            "note": "صباح الخير = « bonjour » (litt. « matin du bien »)."
+        },
+        "يا": {
+            "fr": "ô / hé",
+            "root": null,
+            "pos": "particule d’appel",
+            "note": "Sert à interpeller quelqu’un."
+        },
+        "خالتي": {
+            "fr": "ma tante (côté maternel)",
+            "root": "خ و ل",
+            "pos": "nom + pronom suffixé (ـي)",
+            "note": "خالة = tante maternelle ; ـي = « ma »"
+        },
+        "أهلًا": {
+            "fr": "bienvenue",
+            "root": "أ ه ل",
+            "pos": "expression",
+            "note": "Souvent avec « وسهلًا » : أهلًا وسهلًا."
+        },
+        "وسهلًا": {
+            "fr": "et (sois) à l’aise / (bienvenue)",
+            "root": "س ه ل",
+            "pos": "expression",
+            "note": "Expression figée avec « أهلًا »."
+        },
+        "تفضّلي": {
+            "fr": "entre / vas-y (poliment, féminin)",
+            "root": "ف ض ل",
+            "pos": "verbe (impératif poli, fém.)",
+            "note": "Forme polie adressée à une femme."
+        },
+        "بالدخول": {
+            "fr": "en entrant / à entrer",
+            "root": "د خ ل",
+            "pos": "بـ + nom d’action",
+            "note": "الدخول = l’entrée ; بـ = « par / en »"
+        },
+        "هل": {
+            "fr": "est-ce que ?",
+            "root": null,
+            "pos": "particule interrogative (oui/non)",
+            "note": ""
+        },
+        "فاطمةُ": {
+            "fr": "Fatima",
+            "root": null,
+            "pos": "nom propre",
+            "note": ""
+        },
+        "هنا": {
+            "fr": "ici",
+            "root": null,
+            "pos": "adverbe de lieu",
+            "note": ""
+        },
+        "نعم": {
+            "fr": "oui",
+            "root": null,
+            "pos": "particule de réponse",
+            "note": ""
+        },
+        "غُرْفَتِها": {
+            "fr": "sa chambre (à elle)",
+            "root": "غ ر ف",
+            "pos": "nom + pronom suffixé (ـها)",
+            "note": "ـها = « sa/son (à elle) »"
+        },
+        "سعاد": {
+            "fr": "Souad",
+            "root": null,
+            "pos": "nom propre",
+            "note": ""
+        },
+        "ادخلي": {
+            "fr": "entre (féminin)",
+            "root": "د خ ل",
+            "pos": "verbe (impératif, fém.)",
+            "note": "Adresse à une femme."
+        },
+        "غُرْفَتُكِ": {
+            "fr": "ta chambre (à toi, féminin)",
+            "root": "غ ر ف",
+            "pos": "nom + pronom suffixé (ـكِ)",
+            "note": "ـكِ = « ta » (féminin)"
+        },
+        "واسعةٌ": {
+            "fr": "spacieuse",
+            "root": "و س ع",
+            "pos": "adjectif",
+            "note": ""
+        },
+        "ومُرَتَّبةٌ": {
+            "fr": "et bien rangée",
+            "root": "ر ت ب",
+            "pos": "و + adjectif (participe)",
+            "note": "رَتَّبَ = ranger / organiser (forme II)."
+        },
+        "هذا": {
+            "fr": "ceci / voici (masc.)",
+            "root": null,
+            "pos": "démonstratif",
+            "note": "هذا (m.) / هذه (f.)."
+        },
+        "سريري": {
+            "fr": "mon lit",
+            "root": "س ر ر",
+            "pos": "nom + suffixe (ـي)",
+            "note": "سرير = lit ; ـي = « mon »"
+        },
+        "وهذا": {
+            "fr": "et voici (masc.)",
+            "root": null,
+            "pos": "و + démonstratif",
+            "note": ""
+        },
+        "مكتبي": {
+            "fr": "mon bureau",
+            "root": "ك ت ب",
+            "pos": "nom + suffixe (ـي)",
+            "note": "مكتب = bureau ; ـي = « mon »"
+        },
+        "وهذه": {
+            "fr": "et voici (féminin)",
+            "root": null,
+            "pos": "و + démonstratif (f.)",
+            "note": ""
+        },
+        "خزانةٌ": {
+            "fr": "une armoire",
+            "root": "خ ز ن",
+            "pos": "nom",
+            "note": ""
+        },
+        "أعلّقُ": {
+            "fr": "je suspends",
+            "root": "ع ل ق",
+            "pos": "verbe (présent, 1re pers.)",
+            "note": "علّق = accrocher / suspendre (forme II)."
+        },
+        "فيها": {
+            "fr": "dans laquelle / dedans",
+            "root": null,
+            "pos": "في + pronom (ـها)",
+            "note": "ـها renvoie à خزانة (féminin)."
+        },
+        "ثيابي": {
+            "fr": "mes vêtements",
+            "root": "ث و ب",
+            "pos": "nom (pluriel) + suffixe (ـي)",
+            "note": "ثوب (sg.) / ثياب (pl.)."
+        },
+        "مكتبتي": {
+            "fr": "ma bibliothèque",
+            "root": "ك ت ب",
+            "pos": "nom + suffixe (ـي)",
+            "note": "مكتبة = bibliothèque."
+        },
+        "مكتبتُكِ": {
+            "fr": "ta bibliothèque (fém.)",
+            "root": "ك ت ب",
+            "pos": "nom + pronom suffixé (ـكِ)",
+            "note": ""
+        },
+        "مملوءةٌ": {
+            "fr": "remplie",
+            "root": "م ل أ",
+            "pos": "adjectif / participe",
+            "note": "مملوء = rempli."
+        },
+        "بالكتب": {
+            "fr": "de livres / avec des livres",
+            "root": "ك ت ب",
+            "pos": "بـ + nom pluriel",
+            "note": "كتاب (sg.) / كتب (pl.)."
+        },
+        "من": {
+            "fr": "qui",
+            "root": null,
+            "pos": "mot interrogatif / relatif",
+            "note": "Ici : « Qui a acheté… ? »"
+        },
+        "اشترى": {
+            "fr": "il a acheté",
+            "root": "ش ر ي",
+            "pos": "verbe (passé, 3e masc. sing.)",
+            "note": ""
+        },
+        "لكِ": {
+            "fr": "pour toi (féminin)",
+            "root": null,
+            "pos": "préposition لـ + pronom (ـكِ)",
+            "note": ""
+        },
+        "هذه": {
+            "fr": "ces / cette (féminin)",
+            "root": null,
+            "pos": "démonstratif (f.)",
+            "note": "Peut signifier « cette » ou « ces » selon le nom."
+        },
+        "الكتبَ": {
+            "fr": "les livres",
+            "root": "ك ت ب",
+            "pos": "nom pluriel (défini)",
+            "note": "Écrit ici avec فتحة (accusatif) car COD."
+        },
+        "فاطمة": {
+            "fr": "Fatima",
+            "root": null,
+            "pos": "nom propre",
+            "note": "Même nom, sans voyelles finales."
+        },
+        "أبي": {
+            "fr": "mon père",
+            "root": "أ ب و",
+            "pos": "nom + suffixe (ـي)",
+            "note": "أب = père ; أبي = « mon père » (forme en iḍāfa/oblique)."
+        },
+        "يشتريها": {
+            "fr": "il les achète",
+            "root": "ش ر ي",
+            "pos": "verbe (présent) + pronom objet (ـها)",
+            "note": "ـها renvoie ici à الكتب (non-humain → souvent traité comme fém. sing.)."
+        },
+        "مناسباتٍ": {
+            "fr": "des occasions",
+            "root": "ن س ب",
+            "pos": "nom (pluriel)",
+            "note": "مناسبة = occasion."
+        },
+        "مختلفةٍ": {
+            "fr": "différentes",
+            "root": "خ ل ف",
+            "pos": "adjectif",
+            "note": ""
+        },
+        "ويُقدِّمُها": {
+            "fr": "et il les offre / les présente",
+            "root": "ق د م",
+            "pos": "و + verbe (présent) + pronom objet (ـها)",
+            "note": "قدّم = offrir / présenter (forme II)."
+        },
+        "لي": {
+            "fr": "à moi / pour moi",
+            "root": null,
+            "pos": "préposition لـ + pronom (ـي)",
+            "note": ""
+        },
+        "هدايا": {
+            "fr": "des cadeaux",
+            "root": "ه د ي",
+            "pos": "nom (pluriel)",
+            "note": "هدية (sg.) / هدايا (pl.)."
+        },
+        "أنا": {
+            "fr": "moi / je",
+            "root": null,
+            "pos": "pronom personnel",
+            "note": ""
+        },
+        "أحبُّ": {
+            "fr": "j’aime",
+            "root": "ح ب ب",
+            "pos": "verbe (présent, 1re pers.)",
+            "note": ""
+        },
+        "المطالعة": {
+            "fr": "la lecture",
+            "root": "ط ل ع",
+            "pos": "nom",
+            "note": "Ici : lire / faire de la lecture."
+        },
+        "سأطلبُ": {
+            "fr": "je demanderai",
+            "root": "ط ل ب",
+            "pos": "verbe (futur proche, 1re pers.)",
+            "note": "سـ = futur proche."
+        },
+        "أن": {
+            "fr": "que / de (introduit un verbe)",
+            "root": null,
+            "pos": "particule",
+            "note": "Introduit un verbe au subjonctif (منصوب)."
+        },
+        "يصنعَ": {
+            "fr": "qu’il fabrique",
+            "root": "ص ن ع",
+            "pos": "verbe (subjonctif)",
+            "note": "Après أن."
+        },
+        "مكتبةً": {
+            "fr": "une bibliothèque",
+            "root": "ك ت ب",
+            "pos": "nom (indéfini)",
+            "note": "مكتبة = bibliothèque ; tanwīn = indéfini."
         }
     }
 }
